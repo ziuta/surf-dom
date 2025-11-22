@@ -1,16 +1,16 @@
 <template>
   <section id="contact" class="py-16 bg-gradient-to-br from-gray-50 to-teal-50">
     <div class="section-container">
-      <h2 class="heading-md text-center mb-12">SKONTAKTUJ SIĘ Z NAMI</h2>
+      <h2 class="heading-md text-center mb-12">GET IN TOUCH</h2>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
         <!-- Contact Form -->
         <div class="bg-white p-8 rounded-lg shadow-lg">
-          <h3 class="heading-sm mb-6">Wyślij wiadomość</h3>
+          <h3 class="heading-sm mb-6">Send a Message</h3>
 
           <form @submit.prevent="submitForm" class="space-y-4">
             <div>
-              <label class="block text-gray-700 font-medium mb-2">Imię</label>
+              <label class="block text-gray-700 font-medium mb-2">Name</label>
               <input
                 v-model="form.name"
                 type="text"
@@ -30,17 +30,17 @@
             </div>
 
             <div>
-              <label class="block text-gray-700 font-medium mb-2">Temat</label>
+              <label class="block text-gray-700 font-medium mb-2">Subject</label>
               <select v-model="form.subject" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-teal-600">
-                <option value="booking">Rezerwacja pokoju</option>
-                <option value="lesson">Lekcja surfingu</option>
-                <option value="tour">Wycieczka</option>
-                <option value="other">Inne pytanie</option>
+                <option value="booking">Room Booking</option>
+                <option value="lesson">Surf Lesson</option>
+                <option value="tour">Tour Inquiry</option>
+                <option value="other">Other Question</option>
               </select>
             </div>
 
             <div>
-              <label class="block text-gray-700 font-medium mb-2">Wiadomość</label>
+              <label class="block text-gray-700 font-medium mb-2">Message</label>
               <textarea
                 v-model="form.message"
                 required
@@ -53,11 +53,11 @@
               type="submit"
               class="w-full px-6 py-3 bg-teal-600 text-white rounded-lg hover:bg-teal-700 font-semibold transition-all hover:scale-105"
             >
-              Wyślij wiadomość
+              Send Message
             </button>
 
             <p v-if="formSubmitted" class="text-green-600 text-center font-semibold">
-              ✓ Dziękujemy za wiadomość! Odezwiemy się wkrótce.
+              ✓ Thank you for your message! We'll get back to you soon.
             </p>
           </form>
         </div>
@@ -66,13 +66,13 @@
         <div class="space-y-8">
           <!-- Info Card -->
           <div class="bg-white p-8 rounded-lg shadow-lg">
-            <h3 class="heading-sm mb-6">Informacje Kontaktowe</h3>
+            <h3 class="heading-sm mb-6">Contact Information</h3>
 
             <div class="space-y-6">
               <div class="flex gap-4">
                 <div class="text-3xl">📍</div>
                 <div>
-                  <h4 class="font-semibold text-gray-900 mb-1">Adres</h4>
+                  <h4 class="font-semibold text-gray-900 mb-1">Address</h4>
                   <p class="text-gray-700">
                     123 Tran Hung Dao Street<br/>
                     Vung Tau, Ba Ria - Vung Tau<br/>
@@ -84,7 +84,7 @@
               <div class="flex gap-4">
                 <div class="text-3xl">📞</div>
                 <div>
-                  <h4 class="font-semibold text-gray-900 mb-1">Telefon</h4>
+                  <h4 class="font-semibold text-gray-900 mb-1">Phone</h4>
                   <p class="text-gray-700">
                     <a href="tel:+84906123456" class="text-teal-600 hover:text-teal-700">
                       +84 (906) 123-456
@@ -108,9 +108,9 @@
               <div class="flex gap-4">
                 <div class="text-3xl">🕐</div>
                 <div>
-                  <h4 class="font-semibold text-gray-900 mb-1">Godziny Otwarcia</h4>
+                  <h4 class="font-semibold text-gray-900 mb-1">Hours</h4>
                   <p class="text-gray-700">
-                    Poniedziałek - Niedziela<br/>
+                    Monday - Sunday<br/>
                     06:00 - 23:00 (Reception 24/7)
                   </p>
                 </div>
@@ -120,7 +120,7 @@
 
           <!-- Social Media -->
           <div class="bg-gradient-to-r from-teal-600 to-teal-700 p-8 rounded-lg shadow-lg text-white">
-            <h3 class="font-semibold mb-4">Śledź nas na social mediach</h3>
+            <h3 class="font-semibold mb-4">Follow us on Social Media</h3>
             <div class="flex gap-4">
               <a href="https://instagram.com" target="_blank" class="text-2xl hover:text-yellow-300 transition-colors">
                 📱 Instagram
@@ -133,7 +133,7 @@
               </a>
             </div>
             <p class="mt-4 text-teal-100 text-sm">
-              Taguj nas w twoich wygodach surfingu #SurfHostelVungTau
+              Tag us in your surfing adventures #SurfHostelVungTau
             </p>
           </div>
         </div>

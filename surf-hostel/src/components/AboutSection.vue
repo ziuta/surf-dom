@@ -13,9 +13,9 @@
 
         <!-- Content -->
         <div class="slide-up">
-          <h2 class="heading-md">O SURF HOSTEL</h2>
+          <h2 class="heading-md">ABOUT SURF HOSTEL</h2>
           <p class="text-gray-700 mb-4 leading-relaxed">
-            Witaj w SURF HOSTEL Vung Tau - Twojej bramie do rajskiego doświadczenia surfingowego w Wietnamie!
+            Welcome to SURF HOSTEL Vung Tau - Your gateway to a paradise surfing experience in Vietnam!
           </p>
 
           <div class="space-y-4">
@@ -26,8 +26,8 @@
                 </div>
               </div>
               <div>
-                <h3 class="heading-sm">Komfortowe Pokoje</h3>
-                <p class="text-gray-600">Klimatyzowane pokoje z widokiem na ocean, łóżka premium i prywatne łazienki</p>
+                <h3 class="heading-sm">Comfortable Rooms</h3>
+                <p class="text-gray-600">Air-conditioned rooms with ocean views, premium beds, and private bathrooms</p>
               </div>
             </div>
 
@@ -38,8 +38,8 @@
                 </div>
               </div>
               <div>
-                <h3 class="heading-sm">Taras z Widokiem</h3>
-                <p class="text-gray-600">Obserwuj zachody słońca i warunki surfingu z naszego rozległego tarasu</p>
+                <h3 class="heading-sm">Rooftop Terrace</h3>
+                <p class="text-gray-600">Watch sunsets and check surf conditions from our expansive oceanfront terrace</p>
               </div>
             </div>
 
@@ -50,8 +50,8 @@
                 </div>
               </div>
               <div>
-                <h3 class="heading-sm">Wspólna Przestrzeń</h3>
-                <p class="text-gray-600">Spotkaj surferów z całego świata w naszej atmosferycznej restauracji i barze</p>
+                <h3 class="heading-sm">Community Space</h3>
+                <p class="text-gray-600">Meet surfers from around the world in our vibrant restaurant and bar</p>
               </div>
             </div>
 
@@ -62,14 +62,14 @@
                 </div>
               </div>
               <div>
-                <h3 class="heading-sm">Atmosfera Surfingowa</h3>
-                <p class="text-gray-600">Otocz się pasją do surfingu i bądź częścią dynamicznej surferskiej społeczności</p>
+                <h3 class="heading-sm">Surf Community</h3>
+                <p class="text-gray-600">Immerse yourself in surfing culture and be part of a dynamic surfer community</p>
               </div>
             </div>
           </div>
 
           <button class="mt-8 px-8 py-3 bg-teal-600 text-white rounded-lg hover:bg-teal-700 font-semibold transition-all hover:scale-105">
-            Zarezerwuj Pokój
+            Book a Room
           </button>
         </div>
       </div>

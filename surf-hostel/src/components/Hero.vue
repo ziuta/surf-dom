@@ -17,14 +17,14 @@
           SURF HOSTEL
         </h1>
         <p class="text-xl md:text-2xl mb-8 text-gray-100 animate-slideUp">
-          Vung Tau, Vietnam - Twoje miejsce do nauki surfingu
+          Vung Tau, Vietnam - Your Gateway to Surfing
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center animate-slideUp">
           <button class="px-8 py-3 bg-teal-500 text-white rounded-lg hover:bg-teal-600 font-semibold transition-all hover:scale-105">
-            Zarezerwuj Pokój
+            Book a Room
           </button>
           <button class="px-8 py-3 bg-yellow-500 text-gray-900 rounded-lg hover:bg-yellow-600 font-semibold transition-all hover:scale-105">
-            Sprawdź Warunki Surfingu
+            Check Surf Conditions
           </button>
         </div>
       </div>

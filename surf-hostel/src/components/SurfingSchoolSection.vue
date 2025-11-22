@@ -1,60 +1,60 @@
 <template>
   <section id="surfing" class="py-16 bg-gradient-to-br from-gray-50 to-teal-50">
     <div class="section-container">
-      <h2 class="heading-md text-center mb-12">SZKOŁA SURFINGU</h2>
+      <h2 class="heading-md text-center mb-12">SURF SCHOOL</h2>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <!-- Content -->
         <div class="slide-up">
           <p class="text-gray-700 mb-6 leading-relaxed">
-            Naucz się surfować z profesjonalnymi instruktorami w jednym z najlepszych miejsc surfingowych Wietnamu!
+            Learn to surf with professional instructors at one of Vietnam's best surfing spots!
           </p>
 
           <div class="space-y-6">
             <!-- Beginner Course -->
             <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-teal-600">
-              <h3 class="heading-sm text-teal-600 mb-2">🌊 Kurs Początkujących</h3>
-              <p class="text-gray-600 mb-3">Idealne dla osób bez doświadczenia</p>
+              <h3 class="heading-sm text-teal-600 mb-2">🌊 Beginner Course</h3>
+              <p class="text-gray-600 mb-3">Perfect for those with no experience</p>
               <ul class="text-gray-700 space-y-2 text-sm">
-                <li>✅ 5 dni - 15 godzin nauki</li>
-                <li>✅ Maksymalnie 4 osoby na instruktora</li>
-                <li>✅ Tablica surfingowa + peniaz + instruktor</li>
-                <li>✅ Bezpieczne, słabsze fale</li>
-                <li>✅ Certyfikat ukończenia</li>
+                <li>✅ 5 days - 15 hours of instruction</li>
+                <li>✅ Maximum 4 surfers per instructor</li>
+                <li>✅ Surfboard + wetsuit + instructor included</li>
+                <li>✅ Beginner-friendly waves</li>
+                <li>✅ Certificate upon completion</li>
               </ul>
-              <p class="text-yellow-600 font-bold mt-4">Cena: $199 / 5 dni</p>
+              <p class="text-yellow-600 font-bold mt-4">Price: $199 / 5 days</p>
             </div>
 
             <!-- Intermediate Course -->
             <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-yellow-500">
-              <h3 class="heading-sm text-yellow-600 mb-2">🏄 Kurs Pośredni</h3>
-              <p class="text-gray-600 mb-3">Dla osób z podstawową wiedzą</p>
+              <h3 class="heading-sm text-yellow-600 mb-2">🏄 Intermediate Course</h3>
+              <p class="text-gray-600 mb-3">For those with basic knowledge</p>
               <ul class="text-gray-700 space-y-2 text-sm">
-                <li>✅ 3 dni - 9 godzin nauki</li>
-                <li>✅ Technika zaawansowana</li>
-                <li>✅ Różne rodzaje fal</li>
-                <li>✅ Bezpieczeństwo w oceanie</li>
-                <li>✅ 1-na-1 lub mała grupa</li>
+                <li>✅ 3 days - 9 hours of instruction</li>
+                <li>✅ Advanced technique</li>
+                <li>✅ Variety of wave types</li>
+                <li>✅ Ocean safety</li>
+                <li>✅ 1-on-1 or small group</li>
               </ul>
-              <p class="text-yellow-600 font-bold mt-4">Cena: $149 / 3 dni</p>
+              <p class="text-yellow-600 font-bold mt-4">Price: $149 / 3 days</p>
             </div>
 
             <!-- Private Lessons -->
             <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-teal-500">
-              <h3 class="heading-sm text-teal-500 mb-2">⭐ Prywatne Lekcje</h3>
-              <p class="text-gray-600 mb-3">Indywidualny program treningowy</p>
+              <h3 class="heading-sm text-teal-500 mb-2">⭐ Private Lessons</h3>
+              <p class="text-gray-600 mb-3">Customized training program</p>
               <ul class="text-gray-700 space-y-2 text-sm">
-                <li>✅ Personalizowana nauka</li>
-                <li>✅ Elastyczne godziny</li>
-                <li>✅ Dla każdego poziomu</li>
-                <li>✅ Profesjonalni instruktorzy</li>
+                <li>✅ Personalized instruction</li>
+                <li>✅ Flexible hours</li>
+                <li>✅ For all skill levels</li>
+                <li>✅ Professional instructors</li>
               </ul>
-              <p class="text-yellow-600 font-bold mt-4">Cena: $45 / godzina</p>
+              <p class="text-yellow-600 font-bold mt-4">Price: $45 / hour</p>
             </div>
           </div>
 
           <button class="mt-8 px-8 py-3 bg-yellow-500 text-gray-900 rounded-lg hover:bg-yellow-600 font-semibold transition-all hover:scale-105">
-            Zarezerwuj Lekcję
+            Book a Lesson
           </button>
         </div>
 
@@ -70,7 +70,7 @@
 
       <!-- Instructors -->
       <div class="mt-16">
-        <h3 class="heading-md text-center mb-8">NASI INSTRUKTORZY</h3>
+        <h3 class="heading-md text-center mb-8">OUR INSTRUCTORS</h3>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="text-center fade-in">
             <img
@@ -79,8 +79,8 @@
               class="w-48 h-48 rounded-full object-cover mx-auto mb-4 shadow-lg"
             />
             <h4 class="heading-sm">Anh Minh</h4>
-            <p class="text-gray-600 text-sm mb-2">Instruktor główny • 10 lat doświadczenia</p>
-            <p class="text-gray-700 text-sm">Lokalny mistrz surfingu z Vung Tau. Specjalista w nauczaniu początkujących.</p>
+            <p class="text-gray-600 text-sm mb-2">Lead Instructor • 10 years experience</p>
+            <p class="text-gray-700 text-sm">Local surfing master from Vung Tau. Specializes in teaching beginners.</p>
           </div>
 
           <div class="text-center fade-in">
@@ -90,8 +90,8 @@
               class="w-48 h-48 rounded-full object-cover mx-auto mb-4 shadow-lg"
             />
             <h4 class="heading-sm">Sofia</h4>
-            <p class="text-gray-600 text-sm mb-2">Instruktor • 7 lat doświadczenia</p>
-            <p class="text-gray-700 text-sm">Międzynarodowa surferka. Specjalistka w nauczaniu techniki zaawansowanej.</p>
+            <p class="text-gray-600 text-sm mb-2">Instructor • 7 years experience</p>
+            <p class="text-gray-700 text-sm">International surfer. Expert in advanced technique instruction.</p>
           </div>
 
           <div class="text-center fade-in">
@@ -101,8 +101,8 @@
               class="w-48 h-48 rounded-full object-cover mx-auto mb-4 shadow-lg"
             />
             <h4 class="heading-sm">Tommy</h4>
-            <p class="text-gray-600 text-sm mb-2">Instruktor • 5 lat doświadczenia</p>
-            <p class="text-gray-700 text-sm">Entuzjasta surfingu z energią zaraźliwą. Świetnie pracuje z dziećmi.</p>
+            <p class="text-gray-600 text-sm mb-2">Instructor • 5 years experience</p>
+            <p class="text-gray-700 text-sm">Surfing enthusiast with infectious energy. Great with children.</p>
           </div>
         </div>
       </div>

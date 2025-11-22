@@ -1,7 +1,7 @@
 <template>
   <section class="py-16 bg-white">
     <div class="section-container">
-      <h2 class="heading-md text-center mb-12">OPINIE GOŚCI</h2>
+      <h2 class="heading-md text-center mb-12">GUEST REVIEWS</h2>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div class="bg-gray-50 p-8 rounded-lg shadow-md border-l-4 border-teal-600 fade-in">
@@ -13,7 +13,7 @@
             <span class="text-yellow-400">⭐</span>
           </div>
           <p class="text-gray-700 mb-4 italic">
-            "Fantastyczne miejsce! Instruktorzy byli niesamowici, hostel ma cudowną atmosferę i jedzenie było pyszne. Będę tu następnym razem, gdy wrócę do Wietnamu!"
+            "Fantastic place! The instructors were amazing, the hostel has a wonderful atmosphere, and the food was delicious. I'll definitely return to Vietnam!"
           </p>
           <div>
             <p class="font-semibold text-gray-900">Sarah</p>
@@ -30,11 +30,11 @@
             <span class="text-yellow-400">⭐</span>
           </div>
           <p class="text-gray-700 mb-4 italic">
-            "Najlepszy hostel dla surferów! Anh Minh to świetny instruktor, bardzo pacjentny i profesjonalny. Polecam wszystkim, którzy chcą nauczyć się surfować."
+            "Best hostel for surfers! Anh Minh is a great instructor, very patient and professional. I recommend to everyone who wants to learn to surf."
           </p>
           <div>
             <p class="font-semibold text-gray-900">Marco</p>
-            <p class="text-gray-600 text-sm">Włochy</p>
+            <p class="text-gray-600 text-sm">Italy</p>
           </div>
         </div>
 
@@ -47,11 +47,11 @@
             <span class="text-yellow-400">⭐</span>
           </div>
           <p class="text-gray-700 mb-4 italic">
-            "Poznaliśmy wspaniałych ludzi z całego świata. Wycieczki były niesamowite, a pokoje były czyste i wygodne. Absolutnie polecam!"
+            "We met wonderful people from all over the world. The tours were amazing, and the rooms were clean and comfortable. Absolutely recommended!"
           </p>
           <div>
             <p class="font-semibold text-gray-900">Emma & Tom</p>
-            <p class="text-gray-600 text-sm">Kanada</p>
+            <p class="text-gray-600 text-sm">Canada</p>
           </div>
         </div>
 
@@ -64,11 +64,11 @@
             <span class="text-yellow-400">⭐</span>
           </div>
           <p class="text-gray-700 mb-4 italic">
-            "Wspaniała atmosfera, pyszne jedzenie wietnamskie i niesamowity taras z widokiem! Plaża jest na wyciągnięcie ręki. Perfect!"
+            "Amazing atmosphere, delicious Vietnamese food, and incredible terrace views! The beach is just steps away. Perfect!"
           </p>
           <div>
             <p class="font-semibold text-gray-900">Lisa</p>
-            <p class="text-gray-600 text-sm">Niemcy</p>
+            <p class="text-gray-600 text-sm">Germany</p>
           </div>
         </div>
 
@@ -81,11 +81,11 @@
             <span class="text-yellow-400">⭐</span>
           </div>
           <p class="text-gray-700 mb-4 italic">
-            "Moje pierwsze doświadczenie surfingu i było to niesamowite! Sofia była bardzo cierpliwa i zabawna. Wrócę do nauki następnym razem!"
+            "My first surfing experience and it was amazing! Sofia was very patient and fun. I'll come back for more lessons next time!"
           </p>
           <div>
             <p class="font-semibold text-gray-900">David</p>
-            <p class="text-gray-600 text-sm">Japonia</p>
+            <p class="text-gray-600 text-sm">Japan</p>
           </div>
         </div>
 
@@ -98,11 +98,11 @@
             <span class="text-yellow-400">⭐</span>
           </div>
           <p class="text-gray-700 mb-4 italic">
-            "Najlepszy hostel w Vung Tau! Właściciel naprawdę się troszczy o gości. Wycieczki do Can Gio były fantastyczne!"
+            "Best hostel in Vung Tau! The owner really cares about guests. The trips to Can Gio were fantastic!"
           </p>
           <div>
             <p class="font-semibold text-gray-900">Peter</p>
-            <p class="text-gray-600 text-sm">Holandia</p>
+            <p class="text-gray-600 text-sm">Netherlands</p>
           </div>
         </div>
       </div>
