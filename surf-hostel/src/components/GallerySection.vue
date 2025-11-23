@@ -33,9 +33,53 @@ onMounted(() => {
   const script = document.createElement('script')
   script.src = 'https://elfsightcdn.com/platform.js'
   script.async = true
+  
+  script.onload = () => {
+    // Remove Elfsight branding link after script loads
+    setTimeout(() => {
+      const links = document.querySelectorAll('a[href*="elfsight.com"]')
+      links.forEach(link => {
+        link.style.display = 'none'
+        link.remove()
+      })
+    }, 1000)
+  }
+  
   document.body.appendChild(script)
+  
+  // Also watch for dynamically added elements
+  const observer = new MutationObserver(() => {
+    const elfsightLinks = document.querySelectorAll('a[href*="elfsight.com"]')
+    elfsightLinks.forEach(link => {
+      link.style.display = 'none'
+      link.remove()
+    })
+  })
+  
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true
+  })
 })
 </script>
 
 <style scoped>
+/* Hide Elfsight branding link */
+:deep(a[href*="elfsight.com"]) {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* Additional global style to catch any elfsight branding */
+:global(a[href*="elfsight.com"]) {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* Hide Instagram CTA button */
+:deep(a[href*="instagram.com/surffuntin"]) {
+  display: none !important;
+}
 </style>

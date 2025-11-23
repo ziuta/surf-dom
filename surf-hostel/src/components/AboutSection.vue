@@ -13,9 +13,9 @@
 
         <!-- Content -->
         <div class="slide-up">
-          <h2 class="heading-md">ABOUT SURF HOSTEL</h2>
+          <h2 class="heading-md">ABOUT SURF DOM</h2>
           <p class="text-gray-700 mb-4 leading-relaxed">
-            Welcome to SURF HOSTEL Vung Tau - Your gateway to a paradise surfing experience in Vietnam!
+            Welcome to Surf DOM Vung Tau - Your gateway to a paradise surfing experience in Vietnam!
           </p>
 
           <div class="space-y-4">

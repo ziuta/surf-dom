@@ -3,11 +3,9 @@
     <nav class="section-container py-4 flex items-center justify-between">
       <!-- Logo -->
       <div class="flex items-center gap-2">
-        <svg class="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.5a1 1 0 01-2 0V5H5v1.5a1 1 0 01-2 0V4zm0 7a1 1 0 011-1h4a1 1 0 010 2H4a1 1 0 01-1-1zm6 0a1 1 0 011-1h4a1 1 0 010 2h-4a1 1 0 01-1-1zm6 0a1 1 0 011-1h4a1 1 0 010 2h-4a1 1 0 01-1-1z"/>
-        </svg>
+        <img src="../assets/logo.png" alt="Surf DOM Logo" class="w-8 h-8" />
         <a href="#home" class="text-xl font-bold text-gray-900 hover:text-teal-600">
-          SURF HOSTEL
+          Surf DOM
         </a>
       </div>
 
@@ -16,7 +14,7 @@
         <a href="#about" class="text-gray-700 hover:text-teal-600 font-medium transition-colors">About</a>
         <a href="#surfing" class="text-gray-700 hover:text-teal-600 font-medium transition-colors">Surf School</a>
         <a href="#tours" class="text-gray-700 hover:text-teal-600 font-medium transition-colors">Tours</a>
-        <a href="#gallery" class="text-gray-700 hover:text-teal-600 font-medium transition-colors">Gallery</a>
+        <a href="#instagram" class="text-gray-700 hover:text-teal-600 font-medium transition-colors">Gallery</a>
         <a href="#contact" class="text-gray-700 hover:text-teal-600 font-medium transition-colors">Contact</a>
       </div>
 
@@ -43,7 +41,7 @@
           <a href="#about" class="text-gray-700 hover:text-teal-600 font-medium">About</a>
           <a href="#surfing" class="text-gray-700 hover:text-teal-600 font-medium">Surf School</a>
           <a href="#tours" class="text-gray-700 hover:text-teal-600 font-medium">Tours</a>
-          <a href="#gallery" class="text-gray-700 hover:text-teal-600 font-medium">Gallery</a>
+          <a href="#instagram" class="text-gray-700 hover:text-teal-600 font-medium">Gallery</a>
           <a href="#contact" class="text-gray-700 hover:text-teal-600 font-medium">Contact</a>
           <button class="w-full px-6 py-2 bg-white border-2 border-teal-600 text-teal-600 rounded-lg hover:bg-teal-600 hover:text-white font-medium">
             Book a Room

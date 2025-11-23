@@ -4,7 +4,7 @@
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
         <!-- Brand -->
         <div>
-          <h4 class="font-bold text-lg mb-4 text-yellow-400">SURF HOSTEL</h4>
+          <h4 class="font-bold text-lg mb-4 text-yellow-400">Surf DOM</h4>
           <p class="text-gray-400 text-sm">
             Your best hostel for learning to surf in Vung Tau, Vietnam. Experience surf, culture, and friendship.
           </p>
@@ -52,7 +52,7 @@
 
       <!-- Bottom -->
       <div class="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
-        <p>&copy; 2024 SURF HOSTEL VUNG TAU. All rights reserved.</p>
+        <p>&copy; 2024 Surf DOM VUNG TAU. All rights reserved.</p>
         <div class="flex gap-6 mt-4 md:mt-0">
           <a href="#" class="hover:text-teal-400 transition-colors">Privacy Policy</a>
           <a href="#" class="hover:text-teal-400 transition-colors">Terms of Use</a>
