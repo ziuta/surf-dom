@@ -1,5 +1,5 @@
 <template>
-  <section id="home" class="relative w-full h-screen overflow-hidden">
+  <section id="home" class="relative w-full h-[45vh] overflow-hidden">
     <!-- Windy Interactive Ocean Map - Zoomed to Vung Tau -->
     <div class="absolute inset-0 w-full h-full">
       <iframe
@@ -18,15 +18,6 @@
     <!-- Hero Content Overlay -->
     <div class="absolute inset-0 flex items-end justify-center pb-32">
       <div class="text-center">
-        <!-- Action Buttons -->
-        <div class="flex flex-col sm:flex-row gap-4 justify-center animate-slideUp">
-          <button class="px-8 py-3 bg-transparent border-2 border-white text-white rounded-lg hover:bg-white hover:text-teal-600 font-semibold transition-all hover:scale-105 shadow-lg text-lg">
-            Book a Room
-          </button>
-          <button class="px-8 py-3 bg-transparent border-2 border-yellow-400 text-yellow-400 rounded-lg hover:bg-yellow-400 hover:text-gray-900 font-semibold transition-all hover:scale-105 shadow-lg text-lg">
-            Book Surf Lesson
-          </button>
-        </div>
       </div>
     </div>
 

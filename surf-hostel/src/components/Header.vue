@@ -20,10 +20,13 @@
         <a href="#contact" class="text-gray-700 hover:text-teal-600 font-medium transition-colors">Contact</a>
       </div>
 
-      <!-- CTA Button -->
+      <!-- CTA Buttons -->
       <div class="flex items-center gap-4">
-        <button class="hidden md:inline-block px-6 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 font-medium transition-all">
-          Book Now
+        <button class="hidden md:inline-block px-6 py-2 bg-white border-2 border-teal-600 text-teal-600 rounded-lg hover:bg-teal-600 hover:text-white font-medium transition-all">
+          Book a Room
+        </button>
+        <button class="hidden md:inline-block px-6 py-2 bg-yellow-400 text-gray-900 rounded-lg hover:bg-yellow-500 font-medium transition-all">
+          Book Surf Lesson
         </button>
 
         <!-- Mobile Menu Toggle -->
@@ -42,8 +45,11 @@
           <a href="#tours" class="text-gray-700 hover:text-teal-600 font-medium">Tours</a>
           <a href="#gallery" class="text-gray-700 hover:text-teal-600 font-medium">Gallery</a>
           <a href="#contact" class="text-gray-700 hover:text-teal-600 font-medium">Contact</a>
-          <button class="w-full px-6 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 font-medium">
-            Book Now
+          <button class="w-full px-6 py-2 bg-white border-2 border-teal-600 text-teal-600 rounded-lg hover:bg-teal-600 hover:text-white font-medium">
+            Book a Room
+          </button>
+          <button class="w-full px-6 py-2 bg-yellow-400 text-gray-900 rounded-lg hover:bg-yellow-500 font-medium">
+            Book Surf Lesson
           </button>
         </div>
       </div>
