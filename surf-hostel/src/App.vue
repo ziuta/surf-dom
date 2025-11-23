@@ -8,11 +8,11 @@
       <!-- Hero Section -->
       <Hero />
 
-      <!-- Weather/Surf Conditions Module -->
-      <WeatherSurfModule />
-
       <!-- About Section -->
       <AboutSection />
+
+      <!-- Weather/Surf Conditions Module -->
+      <WeatherSurfModule />
 
       <!-- Surfing School Section -->
       <SurfingSchoolSection />

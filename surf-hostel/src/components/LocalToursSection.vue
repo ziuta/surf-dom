@@ -94,6 +94,95 @@
         </div>
       </div>
 
+      <!-- Second Row: Sunset SUP Tour & Bike Tours -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+        <!-- Sunset SUP Tour -->
+        <div class="bg-gradient-to-br from-purple-50 to-white p-8 rounded-lg shadow-lg border-2 border-purple-200 slide-up">
+          <h3 class="heading-sm text-purple-600 mb-4">🏄 Sunset SUP Tour</h3>
+          <p class="text-gray-700 mb-6">Experience the magic of Vung Tau on a paddleboard</p>
+
+          <div class="space-y-4">
+            <div class="flex items-start gap-3">
+              <span class="text-2xl">🌅</span>
+              <div>
+                <h4 class="font-semibold text-gray-800">Golden Hour Adventure</h4>
+                <p class="text-gray-600 text-sm">Paddle through stunning sunset light over the bay</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="text-2xl">🎓</span>
+              <div>
+                <h4 class="font-semibold text-gray-800">Beginner Friendly</h4>
+                <p class="text-gray-600 text-sm">Professional instructors teach all skill levels</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="text-2xl">🐟</span>
+              <div>
+                <h4 class="font-semibold text-gray-800">Marine Life Spotting</h4>
+                <p class="text-gray-600 text-sm">See local fish and sea birds during your tour</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="text-2xl">☕</span>
+              <div>
+                <h4 class="font-semibold text-gray-800">Light Refreshments</h4>
+                <p class="text-gray-600 text-sm">Enjoy snacks and drinks after your paddle</p>
+              </div>
+            </div>
+          </div>
+
+          <p class="text-purple-600 font-bold mt-6">$40 - $50 / person</p>
+          <p class="text-gray-600 text-sm mt-1">2-3 hours • Sunset times</p>
+        </div>
+
+        <!-- Beach & Mountain Bike Tours -->
+        <div class="bg-gradient-to-br from-orange-50 to-white p-8 rounded-lg shadow-lg border-2 border-orange-200 slide-up">
+          <h3 class="heading-sm text-orange-600 mb-4">🚴 Beach & Mountain Bike Tours</h3>
+          <p class="text-gray-700 mb-6">Explore Vung Tau on two wheels</p>
+
+          <div class="space-y-4">
+            <div class="flex items-start gap-3">
+              <span class="text-2xl">🏔️</span>
+              <div>
+                <h4 class="font-semibold text-gray-800">Mountain Trails</h4>
+                <p class="text-gray-600 text-sm">Challenge yourself on scenic mountain paths with panoramic views</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="text-2xl">🏖️</span>
+              <div>
+                <h4 class="font-semibold text-gray-800">Coastal Rides</h4>
+                <p class="text-gray-600 text-sm">Leisurely rides along pristine beaches and hidden coves</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="text-2xl">📸</span>
+              <div>
+                <h4 class="font-semibold text-gray-800">Photo Stops</h4>
+                <p class="text-gray-600 text-sm">Stop at viewpoints and landmarks for memorable photos</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="text-2xl">🛠️</span>
+              <div>
+                <h4 class="font-semibold text-gray-800">Equipment Included</h4>
+                <p class="text-gray-600 text-sm">High-quality bikes and safety gear provided</p>
+              </div>
+            </div>
+          </div>
+
+          <p class="text-orange-600 font-bold mt-6">$30 - $60 / person</p>
+          <p class="text-gray-600 text-sm mt-1">3-5 hours • Daily, morning & afternoon</p>
+        </div>
+      </div>
+
       <!-- Cultural Experiences -->
       <div class="bg-gradient-to-r from-teal-500 via-teal-600 to-teal-700 rounded-lg p-8 md:p-12 text-white">
         <h3 class="heading-sm text-white mb-6 text-center">🎭 AUTHENTIC VIETNAMESE EXPERIENCES</h3>
