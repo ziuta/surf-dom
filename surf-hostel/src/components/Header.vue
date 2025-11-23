@@ -4,8 +4,8 @@
       <!-- Logo -->
       <div class="flex items-center gap-2">
         <img src="../assets/logo.png" alt="Surf DOM Logo" class="w-8 h-8" />
-        <a href="#home" class="text-xl font-bold text-gray-900 hover:text-teal-600">
-          Surf DOM
+        <a href="#home" class="text-5xl font-black text-gray-900 hover:text-teal-600 uppercase" style="font-family: 'pardon4x4', sans-serif; letter-spacing: 0.05em;">
+          SURF DOM
         </a>
       </div>
 

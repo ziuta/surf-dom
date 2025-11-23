@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'pardon4x4';
+  src: url('./assets/fonts/pardon-4x4-webfont.woff2') format('woff2'),
+    url('./assets/fonts/pardon-4x4-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,6 +20,12 @@ html {
 
 body {
   @apply bg-gray-50 text-gray-900;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'pardon4x4', sans-serif;
 }
 
 a {
@@ -37,14 +51,17 @@ button {
 
 .heading-lg {
   @apply text-4xl md:text-5xl font-bold text-gray-900 mb-4;
+  font-family: 'pardon4x4', sans-serif;
 }
 
 .heading-md {
-  @apply text-3xl md:text-4xl font-bold text-gray-900 mb-3;
+  @apply text-5xl md:text-6xl font-bold text-gray-900 mb-3;
+  font-family: 'pardon4x4', sans-serif;
 }
 
 .heading-sm {
-  @apply text-xl md:text-2xl font-semibold text-gray-800 mb-2;
+  @apply text-2xl md:text-3xl font-semibold text-gray-800 mb-2;
+  font-family: 'pardon4x4', sans-serif;
 }
 
 .fade-in {
