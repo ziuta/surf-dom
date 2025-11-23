@@ -131,7 +131,8 @@ onMounted(() => {
 /* Mobile optimization */
 @media (max-width: 768px) {
   .waves-background {
-    height: 150px;
+    height: 600px;
+    top: -150px;
   }
   
   .wave-1 {
@@ -154,7 +155,8 @@ onMounted(() => {
 /* Small mobile devices */
 @media (max-width: 480px) {
   .waves-background {
-    height: 100px;
+    height: 500px;
+    top: -120px;
   }
   
   .wave-1 {

@@ -1,6 +1,9 @@
 <template>
-  <footer class="bg-gray-900 text-white py-12">
-    <div class="section-container">
+  <footer class="bg-gray-900 text-white py-12 relative overflow-hidden">
+    <!-- Footer Waves -->
+    <FooterWaves />
+    
+    <div class="section-container relative z-10">
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
         <!-- Brand -->
         <div>
@@ -46,24 +49,12 @@
           <p class="text-sm text-gray-400 mt-4">#SurfHostelVungTau</p>
         </div>
       </div>
-
-      <!-- Divider -->
-      <div class="border-t border-gray-700 py-8"></div>
-
-      <!-- Bottom -->
-      <div class="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
-        <p>&copy; 2024 Surf DOM VUNG TAU. All rights reserved.</p>
-        <div class="flex gap-6 mt-4 md:mt-0">
-          <a href="#" class="hover:text-teal-400 transition-colors">Privacy Policy</a>
-          <a href="#" class="hover:text-teal-400 transition-colors">Terms of Use</a>
-          <a href="#" class="hover:text-teal-400 transition-colors">Contact</a>
-        </div>
-      </div>
     </div>
   </footer>
 </template>
 
 <script setup>
+import FooterWaves from './FooterWaves.vue'
 </script>
 
 <style scoped>
