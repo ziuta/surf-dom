@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-gray-900 text-white py-12 relative overflow-hidden">
+  <footer class="bg-gray-900 text-white py-12 md:py-12 relative overflow-hidden">
     <!-- Footer Waves -->
     <FooterWaves />
     

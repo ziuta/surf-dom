@@ -8,6 +8,9 @@
       <!-- Hero Section -->
       <Hero />
 
+      <!-- Packages Section -->
+      <PackagesSection />
+
       <!-- About Section -->
       <AboutSection />
 
@@ -39,6 +42,7 @@
 import Header from './components/Header.vue'
 import Hero from './components/Hero.vue'
 import WeatherSurfModule from './components/WeatherSurfModule.vue'
+import PackagesSection from './components/PackagesSection.vue'
 import AboutSection from './components/AboutSection.vue'
 import SurfingSchoolSection from './components/SurfingSchoolSection.vue'
 import LocalToursSection from './components/LocalToursSection.vue'

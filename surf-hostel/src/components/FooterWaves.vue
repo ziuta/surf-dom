@@ -123,7 +123,8 @@ onMounted(() => {
 /* Mobile optimization */
 @media (max-width: 768px) {
   .footer-waves {
-    height: 250px;
+    height: auto;
+    min-height: 200px;
   }
   
   .footer-wave-1 {
@@ -142,7 +143,8 @@ onMounted(() => {
 /* Small mobile devices */
 @media (max-width: 480px) {
   .footer-waves {
-    height: 200px;
+    height: auto;
+    min-height: 180px;
   }
   
   .footer-wave-1 {
