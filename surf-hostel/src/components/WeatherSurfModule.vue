@@ -11,8 +11,8 @@
             <h3 class="text-xl md:text-4xl font-bold text-white mb-1 md:mb-2">
               🏄 Surf DOM VUNG TAU 🏄
             </h3>
-            <p class="text-teal-100 text-sm md:text-lg">Vung Tau, Vietnam</p>
-            <p class="text-yellow-200 text-xs md:text-sm mt-1 md:mt-2">
+            <p class="text-teal-100 text-base md:text-lg">Vung Tau, Vietnam</p>
+            <p class="text-yellow-200 text-sm md:text-base mt-1 md:mt-2">
               Updated: {{ currentDate }}
             </p>
           </div>
@@ -22,43 +22,43 @@
             <!-- Temperature -->
             <div class="text-center bg-teal-700 bg-opacity-50 rounded-lg p-2 md:p-4">
               <p class="text-yellow-300 text-lg md:text-2xl mb-0 md:mb-1">☀️</p>
-              <p class="text-white text-xs md:text-sm font-semibold">Temperature</p>
+              <p class="text-white text-sm md:text-base font-semibold">Temperature</p>
               <p class="text-yellow-300 text-lg md:text-2xl font-bold">{{ weatherData.temperature }}°C</p>
             </div>
 
             <!-- Wind -->
             <div class="text-center bg-teal-700 bg-opacity-50 rounded-lg p-2 md:p-4">
               <p class="text-yellow-300 text-lg md:text-2xl mb-0 md:mb-1">💨</p>
-              <p class="text-white text-xs md:text-sm font-semibold">Wind</p>
+              <p class="text-white text-sm md:text-base font-semibold">Wind</p>
               <p class="text-yellow-300 text-base md:text-xl font-bold">{{ weatherData.windSpeed }} km/h</p>
-              <p class="text-teal-100 text-xs">{{ weatherData.windDirection }}</p>
+              <p class="text-teal-100 text-sm">{{ weatherData.windDirection }}</p>
             </div>
 
             <!-- Wave Height -->
             <div class="text-center bg-teal-700 bg-opacity-50 rounded-lg p-2 md:p-4">
               <p class="text-yellow-300 text-lg md:text-2xl mb-0 md:mb-1">🌊</p>
-              <p class="text-white text-xs md:text-sm font-semibold">Wave Height</p>
+              <p class="text-white text-sm md:text-base font-semibold">Wave Height</p>
               <p class="text-yellow-300 text-lg md:text-2xl font-bold">{{ weatherData.waveHeight }}</p>
             </div>
 
             <!-- Swell Direction -->
             <div class="text-center bg-teal-700 bg-opacity-50 rounded-lg p-2 md:p-4">
               <p class="text-yellow-300 text-lg md:text-2xl mb-0 md:mb-1">🧭</p>
-              <p class="text-white text-xs md:text-sm font-semibold">Swell Direction</p>
+              <p class="text-white text-sm md:text-base font-semibold">Swell Direction</p>
               <p class="text-yellow-300 text-base md:text-xl font-bold">{{ weatherData.swellDirection }}</p>
             </div>
 
             <!-- Swell Period -->
             <div class="text-center bg-teal-700 bg-opacity-50 rounded-lg p-2 md:p-4">
               <p class="text-yellow-300 text-lg md:text-2xl mb-0 md:mb-1">⏱️</p>
-              <p class="text-white text-xs md:text-sm font-semibold">Swell Period</p>
+              <p class="text-white text-sm md:text-base font-semibold">Swell Period</p>
               <p class="text-yellow-300 text-lg md:text-2xl font-bold">{{ weatherData.swellPeriod }}s</p>
             </div>
 
             <!-- Tide -->
             <div class="text-center bg-teal-700 bg-opacity-50 rounded-lg p-2 md:p-4">
               <p class="text-yellow-300 text-lg md:text-2xl mb-0 md:mb-1">🌀</p>
-              <p class="text-white text-xs md:text-sm font-semibold">Tide</p>
+              <p class="text-white text-sm md:text-base font-semibold">Tide</p>
               <p class="text-yellow-300 text-base md:text-lg font-bold">{{ weatherData.tide }}</p>
             </div>
           </div>
@@ -90,7 +90,7 @@
             <p class="text-white text-center mt-1 md:mt-2 text-sm md:text-lg font-semibold">
               {{ weatherData.recommendation }}
             </p>
-            <p class="text-teal-100 text-center mt-1 md:mt-3 text-xs md:text-sm">
+            <p class="text-teal-100 text-center mt-1 md:mt-3 text-sm md:text-base">
               Perfect conditions for learning or advanced surfing!
             </p>
           </div>
@@ -107,10 +107,11 @@
         </div>
 
         <!-- Info Text Below -->
-        <p class="text-center text-gray-700 mt-4 md:mt-6 font-semibold text-sm md:text-base">
+        <p class="text-center text-gray-700 mt-4 md:mt-6 font-semibold text-base md:text-lg">
           💡 Updated every 3 hours | Check regularly
         </p>
       </div>
+
     </div>
   </section>
 </template>

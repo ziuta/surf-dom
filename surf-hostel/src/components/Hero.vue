@@ -1,38 +1,91 @@
 <template>
-  <section id="home" class="relative w-full h-[45vh] overflow-hidden">
-    <!-- Windy Interactive Ocean Map - Zoomed to Vung Tau -->
-    <div class="absolute inset-0 w-full h-full">
-      <iframe
-        title="Live Ocean Map - Waves, Wind & Temperature"
-        width="100%"
-        height="100%"
-        src="https://embed.windy.com/embed2.html?lat=10.346&lon=107.084&detailLat=10.346&detailLon=107.084&width=100%&height=100%&zoom=13&level=surface&overlay=waves&product=ecmwf&menu=&message=&marker=true&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=km%2Fh&metricTemp=%C2%B0C&radarRange=-1"
-        frameborder="0"
-        style="border: none;"
-      ></iframe>
+  <section id="home" class="relative w-full py-16 sm:py-20 md:py-24 overflow-hidden">
+    <!-- Background Image with Parallax Effect and Enhanced Overlay -->
+    <div 
+      class="absolute inset-0 bg-cover bg-center bg-no-repeat" 
+      :style="{ 
+        backgroundImage: `url('${heroBg}')`,
+        transform: `translateY(${parallaxOffset}px)`
+      }"
+    >
+      <!-- Gradient + Dark Overlay for Better Text Contrast -->
+      <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-black/50 to-black/60"></div>
     </div>
 
-    <!-- Semi-transparent Overlay for Hero Content -->
-    <div class="absolute inset-0 bg-black/40"></div>
+    <!-- Hero Content - Relative positioning with better spacing -->
+    <div class="relative z-10 w-full flex items-center justify-center px-4">
+      <div class="text-center text-white max-w-4xl">
+        <!-- Pre-Headline with Blue Color and Shadow -->
+        <p class="text-base sm:text-lg font-bold text-teal-300 mb-2 sm:mb-3 tracking-widest uppercase animate-pulse drop-shadow-lg">
+          🏄 THE SEASON IS NOW!
+        </p>
+        
+        <!-- Main Headline with Shadow -->
+        <h1 class="text-5xl sm:text-6xl md:text-7xl font-black mb-3 sm:mb-4 leading-tight animate-slideUp drop-shadow-xl" style="font-family: 'pardon4x4', sans-serif;">
+          EVERYDAY<br />SURF CAMP
+        </h1>
+        
+        <!-- Subheadline with Value Prop and Shadow -->
+        <p class="text-base sm:text-lg md:text-xl mb-4 sm:mb-6 font-semibold text-gray-50 max-w-2xl mx-auto drop-shadow-lg">
+          Surfing Lessons + Unlimited Gear + 3 Meals Daily + Free Accommodation
+        </p>
 
-    <!-- Hero Content Overlay -->
-    <div class="absolute inset-0 flex items-end justify-center pb-32">
-      <div class="text-center">
+        <!-- Price - More Visible with Shadow -->
+        <div class="mb-5 sm:mb-7">
+          <p class="text-sm text-gray-300 mb-1 font-bold drop-shadow-lg">All for just</p>
+          <p class="text-3xl sm:text-4xl md:text-5xl font-black text-lime-300 drop-shadow-lg">2,100,000 ₫</p>
+        </div>
+        
+        <!-- Location USP with Shadow -->
+        <p class="text-sm sm:text-base text-gray-200 mb-6 sm:mb-8 drop-shadow-lg">
+          Perfect waves. Perfect weather. Perfect time to book your spot at Vung Tau's premier surf destination.
+        </p>
+        
+        <!-- CTA Buttons with Blue Theme -->
+        <div class="flex flex-col sm:flex-row gap-3 justify-center mb-6">
+          <button class="px-8 sm:px-10 py-3 sm:py-4 bg-gradient-to-r from-teal-500 to-teal-600 text-white font-black text-lg hover:from-teal-600 hover:to-teal-700 transition-all hover:scale-105 rounded-lg shadow-lg">
+            🎉 BOOK YOUR SPOT NOW
+          </button>
+          <button @click="scrollToPackages" class="px-8 sm:px-10 py-3 sm:py-4 bg-white/20 backdrop-blur-sm text-white font-bold border-2 border-white hover:bg-white/30 transition-all rounded-lg">
+            Learn More
+          </button>
+        </div>
+        
+        <!-- Trust Indicators with Shadow -->
+        <p class="text-xs sm:text-sm text-gray-300 italic drop-shadow-lg">
+          ✓ Award-Winning Instructors ✓ Professional Equipment ✓ Join Anytime
+        </p>
       </div>
-    </div>
-
-    <!-- Bottom Scroll Indicator -->
-    <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white text-center animate-bounce">
-      <p class="text-sm mb-2">Scroll to explore</p>
-      <svg class="w-6 h-6 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
-      </svg>
     </div>
   </section>
 </template>
 
 <script setup>
-// No additional JavaScript needed - Windy handles all map functionality
+import heroBg from '../assets/hero-bg.jpg';
+import { ref, onMounted, onUnmounted } from 'vue';
+
+const parallaxOffset = ref(0);
+
+const scrollToPackages = () => {
+  const packagesSection = document.getElementById('packages');
+  if (packagesSection) {
+    packagesSection.scrollIntoView({ behavior: 'smooth' });
+  }
+};
+
+const handleScroll = () => {
+  // Calculate parallax offset based on scroll position
+  const scrollPosition = window.scrollY;
+  parallaxOffset.value = scrollPosition * 0.5;
+};
+
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll);
+});
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll);
+});
 </script>
 
 <style scoped>

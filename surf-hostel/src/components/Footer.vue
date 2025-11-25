@@ -8,7 +8,7 @@
         <!-- Brand -->
         <div>
           <h4 class="font-bold text-lg mb-4 text-yellow-400">Surf DOM</h4>
-          <p class="text-gray-400 text-sm">
+          <p class="text-gray-400 text-base">
             Your best hostel for learning to surf in Vung Tau, Vietnam. Experience surf, culture, and friendship.
           </p>
         </div>
@@ -16,7 +16,7 @@
         <!-- Quick Links -->
         <div>
           <h4 class="font-bold mb-4 text-yellow-400">Quick Links</h4>
-          <ul class="space-y-2 text-sm text-gray-400">
+          <ul class="space-y-2 text-base text-gray-400">
             <li><a href="#about" class="hover:text-teal-400 transition-colors">About</a></li>
             <li><a href="#surfing" class="hover:text-teal-400 transition-colors">Surf School</a></li>
             <li><a href="#tours" class="hover:text-teal-400 transition-colors">Tours</a></li>
@@ -28,7 +28,7 @@
         <!-- Services -->
         <div>
           <h4 class="font-bold mb-4 text-yellow-400">Services</h4>
-          <ul class="space-y-2 text-sm text-gray-400">
+          <ul class="space-y-2 text-base text-gray-400">
             <li><a href="#" class="hover:text-teal-400 transition-colors">Room Booking</a></li>
             <li><a href="#" class="hover:text-teal-400 transition-colors">Surf Lessons</a></li>
             <li><a href="#" class="hover:text-teal-400 transition-colors">Tours</a></li>
@@ -46,7 +46,7 @@
             <a href="#" class="hover:text-teal-400 transition-colors">▶️</a>
             <a href="#" class="hover:text-teal-400 transition-colors">🎬</a>
           </div>
-          <p class="text-sm text-gray-400 mt-4">#SurfHostelVungTau</p>
+          <p class="text-base text-gray-400 mt-4">#SurfHostelVungTau</p>
         </div>
       </div>
     </div>

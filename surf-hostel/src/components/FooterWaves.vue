@@ -3,7 +3,7 @@
     <!-- Separator and Copyright -->
     <div class="flex-1 flex flex-col justify-end pointer-events-auto relative z-20">
       <div class="border-t border-gray-700 py-6 px-4 sm:px-0">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center text-base text-gray-400">
           <p>&copy; 2024 Surf DOM VUNG TAU. All rights reserved.</p>
           <div class="flex gap-6 mt-4 md:mt-0">
             <a href="#" class="hover:text-teal-400 transition-colors">Privacy Policy</a>

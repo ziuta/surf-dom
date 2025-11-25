@@ -11,11 +11,14 @@
       <!-- Packages Section -->
       <PackagesSection />
 
-      <!-- About Section -->
-      <AboutSection />
-
       <!-- Weather/Surf Conditions Module -->
       <WeatherSurfModule />
+
+      <!-- Windy Map Section - Full Width -->
+      <WindyMapSection />
+
+      <!-- About Section -->
+      <AboutSection />
 
       <!-- Surfing School Section -->
       <SurfingSchoolSection />
@@ -42,6 +45,7 @@
 import Header from './components/Header.vue'
 import Hero from './components/Hero.vue'
 import WeatherSurfModule from './components/WeatherSurfModule.vue'
+import WindyMapSection from './components/WindyMapSection.vue'
 import PackagesSection from './components/PackagesSection.vue'
 import AboutSection from './components/AboutSection.vue'
 import SurfingSchoolSection from './components/SurfingSchoolSection.vue'

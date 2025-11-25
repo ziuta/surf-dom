@@ -17,8 +17,8 @@
             <!-- Adult Group Session -->
             <div class="bg-white/85 backdrop-blur-sm p-5 rounded-lg shadow-md border-l-4 border-teal-600 hover:shadow-lg transition-shadow hover:bg-white/95">
               <h3 class="heading-sm text-teal-600 mb-2">👥 Group Session</h3>
-              <p class="text-gray-600 mb-2 text-sm">Up to 6 people per group</p>
-              <ul class="text-gray-700 space-y-1 text-xs">
+              <p class="text-gray-600 mb-2 text-base">Up to 6 people per group</p>
+              <ul class="text-gray-700 space-y-1 text-base">
                 <li>✅ Max 6 surfers per session</li>
                 <li>✅ 1 hour instruction</li>
                 <li>✅ Professional instructors</li>
@@ -30,8 +30,8 @@
             <!-- Adult Paired Session -->
             <div class="bg-white/85 backdrop-blur-sm p-5 rounded-lg shadow-md border-l-4 border-yellow-500 hover:shadow-lg transition-shadow hover:bg-white/95">
               <h3 class="heading-sm text-yellow-600 mb-2">👫 Paired Session</h3>
-              <p class="text-gray-600 mb-2 text-sm">Perfect for couples</p>
-              <ul class="text-gray-700 space-y-1 text-xs">
+              <p class="text-gray-600 mb-2 text-base">Perfect for couples</p>
+              <ul class="text-gray-700 space-y-1 text-base">
                 <li>✅ 2 people per session</li>
                 <li>✅ 1 hour instruction</li>
                 <li>✅ Personalized attention</li>
@@ -43,8 +43,8 @@
             <!-- Private Lessons -->
             <div class="bg-white/85 backdrop-blur-sm p-5 rounded-lg shadow-md border-l-4 border-teal-500 hover:shadow-lg transition-shadow hover:bg-white/95">
               <h3 class="heading-sm text-teal-500 mb-2">⭐ Individual Lesson</h3>
-              <p class="text-gray-600 mb-2 text-sm">1-on-1 custom training</p>
-              <ul class="text-gray-700 space-y-1 text-xs">
+              <p class="text-gray-600 mb-2 text-base">1-on-1 custom training</p>
+              <ul class="text-gray-700 space-y-1 text-base">
                 <li>✅ Personal instructor</li>
                 <li>✅ Flexible scheduling</li>
                 <li>✅ All skill levels</li>
@@ -56,8 +56,8 @@
             <!-- Children Sessions -->
             <div class="bg-white/85 backdrop-blur-sm p-5 rounded-lg shadow-md border-l-4 border-pink-500 hover:shadow-lg transition-shadow hover:bg-white/95">
               <h3 class="heading-sm text-pink-600 mb-2">🏄 Children Lessons</h3>
-              <p class="text-gray-600 mb-2 text-sm">2 hours per session</p>
-              <ul class="text-gray-700 space-y-1 text-xs">
+              <p class="text-gray-600 mb-2 text-base">2 hours per session</p>
+              <ul class="text-gray-700 space-y-1 text-base">
                 <li>✅ Single: 750,000 ₫</li>
                 <li>✅ 4-Pass: 375,000 ₫/session</li>
                 <li>✅ Fun & safe learning</li>
@@ -73,7 +73,7 @@
           <!-- Booking Info -->
           <div class="bg-gradient-to-br from-blue-50/85 to-teal-50/85 backdrop-blur-sm p-6 rounded-lg border-2 border-teal-200/70 hover:border-teal-300/90 transition-colors">
             <h4 class="font-bold text-gray-800 mb-4 text-lg">📅 Booking Information</h4>
-            <ul class="text-gray-700 space-y-3 text-sm">
+            <ul class="text-gray-700 space-y-3 text-base">
               <li class="flex gap-2">
                 <span>📍</span>
                 <div>

@@ -60,7 +60,7 @@ button {
 }
 
 .heading-sm {
-  @apply text-2xl md:text-3xl font-semibold text-gray-800 mb-2;
+  @apply text-2xl md:text-4xl font-semibold mb-2;
   font-family: 'pardon4x4', sans-serif;
 }
 
@@ -79,4 +79,12 @@ button {
 
 .slide-up.visible {
   @apply animate-slideUp;
+}
+
+/* Responsive text-base: 0.875rem on mobile, 1rem on md+ */
+@media (max-width: 767px) {
+  .text-base {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
 }

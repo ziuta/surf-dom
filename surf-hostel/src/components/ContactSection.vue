@@ -13,7 +13,7 @@
               <div class="text-3xl flex-shrink-0">📍</div>
               <div>
                 <h4 class="font-semibold text-gray-900 mb-1">Address</h4>
-                <p class="text-gray-700 text-sm">
+                <p class="text-gray-700 text-base">
                   123 Tran Hung Dao Street<br/>
                   Vung Tau, Ba Ria - Vung Tau<br/>
                   Vietnam 79000
@@ -25,7 +25,7 @@
               <div class="text-3xl flex-shrink-0">📞</div>
               <div>
                 <h4 class="font-semibold text-gray-900 mb-1">Phone</h4>
-                <p class="text-gray-700 text-sm">
+                <p class="text-gray-700 text-base">
                   <a href="tel:+84906123456" class="text-teal-600 hover:text-teal-700 font-medium">
                     +84 (906) 123-456
                   </a>
@@ -37,7 +37,7 @@
               <div class="text-3xl flex-shrink-0">✉️</div>
               <div>
                 <h4 class="font-semibold text-gray-900 mb-1">Email</h4>
-                <p class="text-gray-700 text-sm">
+                <p class="text-gray-700 text-base">
                   <a href="mailto:info@surphostelvungtau.com" class="text-teal-600 hover:text-teal-700 font-medium">
                     info@surphostelvungtau.com
                   </a>
@@ -49,7 +49,7 @@
               <div class="text-3xl flex-shrink-0">🕐</div>
               <div>
                 <h4 class="font-semibold text-gray-900 mb-1">Hours</h4>
-                <p class="text-gray-700 text-sm">
+                <p class="text-gray-700 text-base">
                   Monday - Sunday<br/>
                   06:00 - 23:00 (Reception 24/7)
                 </p>
@@ -78,7 +78,7 @@
           </div>
           
           <div class="mt-6 pt-6 border-t border-teal-100">
-            <p class="text-center text-gray-700 text-sm">
+            <p class="text-center text-gray-700 text-base">
               <span class="block mb-2">📸 Tag us in your surfing adventures</span>
               <span class="font-bold text-teal-600">#SurfHostelVungTau</span>
             </p>
