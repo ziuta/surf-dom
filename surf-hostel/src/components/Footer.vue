@@ -40,13 +40,11 @@
         <!-- Social -->
         <div>
           <h4 class="font-bold mb-4 text-yellow-400">Follow Us</h4>
-          <div class="flex gap-4 text-2xl">
-            <a href="#" class="hover:text-teal-400 transition-colors">📱</a>
-            <a href="#" class="hover:text-teal-400 transition-colors">👥</a>
-            <a href="#" class="hover:text-teal-400 transition-colors">▶️</a>
-            <a href="#" class="hover:text-teal-400 transition-colors">🎬</a>
+          <div class="flex flex-col gap-2 text-base text-gray-300">
+            <a href="https://www.facebook.com/SURFDOMvungtau/" target="_blank" rel="noopener noreferrer" class="hover:text-teal-400 transition-colors">Facebook</a>
+            <a href="https://www.instagram.com/vungtausurfschool/?next=%2F" target="_blank" rel="noopener noreferrer" class="hover:text-teal-400 transition-colors">Instagram</a>
           </div>
-          <p class="text-base text-gray-400 mt-4">#SurfHostelVungTau</p>
+          <p class="text-base text-gray-400 mt-4">Please tag us @vungtausurfschool</p>
         </div>
       </div>
     </div>

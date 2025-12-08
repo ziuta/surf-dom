@@ -171,7 +171,7 @@
                 <li>• Champion of the Vung Tau Surf Festival.</li>
                 <li>• Founder of the first surf school in Crimea & President of the Federation.</li>
                 <li>• Veteran competitor with national championship experience.</li>
-                <li><span class="font-semibold text-black">Specialty:</span> Taking you from zero to hero.</li>
+                <li><span class="font-semibold text-black">Specialty:</span> Making you fall in love with waves.</li>
               </ul>
             </div>
 
