@@ -13,16 +13,16 @@
       <div class="hidden md:flex gap-8">
         <a href="#about" class="text-gray-700 hover:text-teal-600 font-medium transition-colors">About</a>
         <a href="#surfing" class="text-gray-700 hover:text-teal-600 font-medium transition-colors">Surf School</a>
-        <a href="#tours" class="text-gray-700 hover:text-teal-600 font-medium transition-colors">Tours</a>
+        <a href="#activities" class="text-gray-700 hover:text-teal-600 font-medium transition-colors">Activities</a>
         <a href="#instagram" class="text-gray-700 hover:text-teal-600 font-medium transition-colors">Gallery</a>
         <a href="#contact" class="text-gray-700 hover:text-teal-600 font-medium transition-colors">Contact</a>
       </div>
 
       <!-- CTA Buttons -->
       <div class="flex items-center gap-4">
-        <button class="hidden md:inline-block px-6 py-2 bg-lime-300 text-gray-900 rounded-lg hover:bg-lime-500 font-medium transition-all">
-          Book Surf Lesson
-        </button>
+        <a href="https://wa.me/84977724210" target="_blank" rel="noopener noreferrer" class="hidden md:inline-block px-6 py-2 bg-lime-300 text-gray-900 rounded-lg hover:bg-lime-500 font-medium transition-all">
+          Ask Anything (WhatsApp)
+        </a>
 
         <!-- Mobile Menu Toggle -->
         <button @click="mobileMenuOpen = !mobileMenuOpen" class="md:hidden p-2 text-gray-700">
@@ -37,12 +37,12 @@
         <div class="section-container py-4 flex flex-col gap-4">
           <a href="#about" class="text-gray-700 hover:text-teal-600 font-medium">About</a>
           <a href="#surfing" class="text-gray-700 hover:text-teal-600 font-medium">Surf School</a>
-          <a href="#tours" class="text-gray-700 hover:text-teal-600 font-medium">Tours</a>
+          <a href="#activities" class="text-gray-700 hover:text-teal-600 font-medium">Activities</a>
           <a href="#instagram" class="text-gray-700 hover:text-teal-600 font-medium">Gallery</a>
           <a href="#contact" class="text-gray-700 hover:text-teal-600 font-medium">Contact</a>
-          <button class="w-full px-6 py-2 bg-lime-300 text-gray-900 rounded-lg hover:bg-lime-400 font-medium">
-            Book Surf Lesson
-          </button>
+          <a href="https://wa.me/84977724210" target="_blank" rel="noopener noreferrer" class="w-full px-6 py-2 bg-lime-300 text-gray-900 rounded-lg hover:bg-lime-400 font-medium text-center">
+            Ask Anything (WhatsApp)
+          </a>
         </div>
       </div>
     </nav>
