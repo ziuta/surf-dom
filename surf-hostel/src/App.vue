@@ -11,12 +11,6 @@
       <!-- Packages Section -->
       <PackagesSection />
 
-      <!-- Weather/Surf Conditions Module -->
-      <WeatherSurfModule />
-
-      <!-- Windy Map Section - Full Width -->
-      <WindyMapSection />
-
       <!-- About Section -->
       <AboutSection />
 
@@ -28,6 +22,12 @@
 
       <!-- Gallery Section -->
       <GallerySection />
+
+      <!-- Weather/Surf Conditions Module -->
+      <WeatherSurfModule />
+
+      <!-- Windy Map Section - Full Width -->
+      <WindyMapSection />
 
       <!-- Testimonials Section -->
       <TestimonialsSection />

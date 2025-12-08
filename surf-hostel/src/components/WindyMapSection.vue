@@ -8,14 +8,14 @@
       </div>
 
       <!-- Windy Interactive Ocean Map - Full Width -->
-      <div class="w-full h-96 md:h-screen/2">
+      <div class="w-full h-96 md:h-screen/2 pointer-events-none">
         <iframe
           title="Live Ocean Map - Waves, Wind & Temperature"
           width="100%"
           height="100%"
           src="https://embed.windy.com/embed2.html?lat=10.346&lon=107.084&detailLat=10.346&detailLon=107.084&width=100%&height=100%&zoom=13&level=surface&overlay=waves&product=ecmwf&menu=&message=&marker=true&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=km%2Fh&metricTemp=%C2%B0C&radarRange=-1"
           frameborder="0"
-          style="border: none; display: block;"
+          style="border: none; display: block; pointer-events: none;"
         ></iframe>
       </div>
 

@@ -9,7 +9,7 @@
       <div class="mb-8">
         <!-- Left Column - Courses -->
         <div class="slide-up">
-          <p class="text-gray-700 mb-6 leading-relaxed font-semibold text-lg bg-white/80 backdrop-blur-sm p-4 rounded-lg">
+          <p class="text-gray-700 mb-6 leading-relaxed font-semibold text-lg bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
             Learn to surf with professional instructors at one of Vietnam's best surfing spots!
           </p>
 
@@ -72,44 +72,85 @@
         <div class="slide-up mt-8">
           <!-- Booking Info -->
           <div class="bg-gradient-to-br from-blue-50/85 to-teal-50/85 backdrop-blur-sm p-6 rounded-lg border-2 border-teal-200/70 hover:border-teal-300/90 transition-colors">
-            <h4 class="font-bold text-gray-800 mb-4 text-lg">📅 Booking Information</h4>
-            <ul class="text-gray-700 space-y-3 text-base">
-              <li class="flex gap-2">
-                <span>📍</span>
-                <div>
-                  <strong>Schedule:</strong>
-                  <p class="text-gray-600">Daily at 8:00 & 15:00</p>
-                </div>
-              </li>
-              <li class="flex gap-2">
-                <span>🚐</span>
-                <div>
-                  <strong>Included:</strong>
-                  <p class="text-gray-600">Transfer, theory & practice, equipment</p>
-                </div>
-              </li>
-              <li class="flex gap-2">
-                <span>💳</span>
-                <div>
-                  <strong>Prepayment:</strong>
-                  <p class="text-gray-600">Group 250,000₫ | Individual 500,000₫</p>
-                </div>
-              </li>
-              <li class="flex gap-2">
-                <span>⚠️</span>
-                <div>
-                  <strong>Note:</strong>
-                  <p class="text-gray-600">Group size reduces in difficult weather</p>
-                </div>
-              </li>
-            </ul>
+            <h4 class="font-bold text-gray-800 mb-4 text-lg">📅 Booking Information & Surf Spots</h4>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <!-- Left Column - Booking Info -->
+              <div>
+                <h5 class="font-semibold text-gray-900 mb-4 text-base">Lesson Details</h5>
+                <ul class="text-gray-700 space-y-3 text-base">
+                  <li class="flex gap-2">
+                    <span>📍</span>
+                    <div>
+                      <strong>Schedule:</strong>
+                      <p class="text-gray-600">Daily at 8:00 & 15:00</p>
+                      <p class="text-gray-600 text-sm mt-1">Please arrive 15 minutes early at Surf Hostel</p>
+                    </div>
+                  </li>
+                  <li class="flex gap-2">
+                    <span>🚐</span>
+                    <div>
+                      <strong>Included:</strong>
+                      <p class="text-gray-600">Transfer, theory & practice, equipment</p>
+                    </div>
+                  </li>
+                  <li class="flex gap-2">
+                    <span>💳</span>
+                    <div>
+                      <strong>Prepayment:</strong>
+                      <p class="text-gray-600">Group 250,000₫ | Individual 500,000₫</p>
+                    </div>
+                  </li>
+                  <li class="flex gap-2">
+                    <span>⚠️</span>
+                    <div>
+                      <strong>Note:</strong>
+                      <p class="text-gray-600">Group size reduces in difficult weather</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <!-- Right Column - Surf Spots -->
+              <div>
+                <h5 class="font-semibold text-gray-900 mb-4 text-base">Our Surfing Spots</h5>
+                <ul class="text-gray-700 space-y-3 text-base">
+                  <li class="flex gap-2">
+                    <span>🏄</span>
+                    <div>
+                      <a href="https://maps.google.com/maps?q=Back+Beach+Vung+Tau" target="_blank" class="text-teal-600 hover:text-teal-700 font-semibold transition-colors">
+                        Back Beach
+                      </a>
+                      <p class="text-gray-600 text-sm">Perfect for beginners, calm waves</p>
+                    </div>
+                  </li>
+                  <li class="flex gap-2">
+                    <span>🌊</span>
+                    <div>
+                      <a href="https://maps.google.com/maps?q=Front+Beach+Vung+Tau" target="_blank" class="text-teal-600 hover:text-teal-700 font-semibold transition-colors">
+                        Front Beach
+                      </a>
+                      <p class="text-gray-600 text-sm">Consistent waves, intermediate level</p>
+                    </div>
+                  </li>
+                  <li class="flex gap-2">
+                    <span>⛵</span>
+                    <div>
+                      <a href="https://maps.google.com/maps?q=Paradise+Cove+Vung+Tau" target="_blank" class="text-teal-600 hover:text-teal-700 font-semibold transition-colors">
+                        Paradise Cove
+                      </a>
+                      <p class="text-gray-600 text-sm">Advanced break, scenic surroundings</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
       <!-- Full Width Booking Button -->
       <div class="mb-12">
-        <button class="w-full px-8 py-4 bg-gradient-to-r from-yellow-400 to-yellow-500 text-gray-900 rounded-lg hover:from-yellow-500 hover:to-yellow-600 font-bold transition-all hover:scale-105 shadow-lg text-lg">
+        <button class="w-full px-
+        8 py-4 bg-gradient-to-r from-lime-300 to-lime-500 text-gray-900 rounded-lg hover:from-lime-200 hover:to-lime-500 font-bold transition-all hover:scale-105 shadow-lg text-lg">
           📞 Book a Lesson
         </button>
       </div>

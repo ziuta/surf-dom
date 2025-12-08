@@ -22,12 +22,48 @@
             <div class="flex gap-4">
               <div class="flex-shrink-0">
                 <div class="flex items-center justify-center h-12 w-12 rounded-md bg-teal-600 text-white">
-                  🏠
+                  🏄
                 </div>
               </div>
               <div>
-                <h3 class="heading-sm">Comfortable Rooms</h3>
-                <p class="text-gray-600">Air-conditioned rooms with ocean views, premium beds, and private bathrooms</p>
+                <h3 class="heading-sm">Surfing Lessons with Champions</h3>
+                <p class="text-gray-600">Learn from award-winning instructors at Vietnam's best surfing spots</p>
+              </div>
+            </div>
+
+            <div class="flex gap-4">
+              <div class="flex-shrink-0">
+                <div class="flex items-center justify-center h-12 w-12 rounded-md bg-teal-600 text-white">
+                  ☕
+                </div>
+              </div>
+              <div>
+                <h3 class="heading-sm">Cozy Coffee & Homemade Food</h3>
+                <p class="text-gray-600">Enjoy delicious coffee and authentic homemade meals</p>
+              </div>
+            </div>
+
+            <div class="flex gap-4">
+              <div class="flex-shrink-0">
+                <div class="flex items-center justify-center h-12 w-12 rounded-md bg-teal-600 text-white">
+                  🛍️
+                </div>
+              </div>
+              <div>
+                <h3 class="heading-sm">Thrift Spot with Surfer Gear</h3>
+                <p class="text-gray-600">Browse authentic surfer clothing and lifestyle pieces in our curated thrift shop</p>
+              </div>
+            </div>
+
+            <div class="flex gap-4">
+              <div class="flex-shrink-0">
+                <div class="flex items-center justify-center h-12 w-12 rounded-md bg-teal-600 text-white">
+                  🏄‍♂️
+                </div>
+              </div>
+              <div>
+                <h3 class="heading-sm">Equipment Rental</h3>
+                <p class="text-gray-600">Rent quality surfboards, skateboards, and all gear you need for adventure</p>
               </div>
             </div>
 
@@ -38,39 +74,11 @@
                 </div>
               </div>
               <div>
-                <h3 class="heading-sm">Rooftop Terrace</h3>
-                <p class="text-gray-600">Watch sunsets and check surf conditions from our expansive oceanfront terrace</p>
-              </div>
-            </div>
-
-            <div class="flex gap-4">
-              <div class="flex-shrink-0">
-                <div class="flex items-center justify-center h-12 w-12 rounded-md bg-teal-600 text-white">
-                  👥
-                </div>
-              </div>
-              <div>
-                <h3 class="heading-sm">Community Space</h3>
-                <p class="text-gray-600">Meet surfers from around the world in our vibrant restaurant and bar</p>
-              </div>
-            </div>
-
-            <div class="flex gap-4">
-              <div class="flex-shrink-0">
-                <div class="flex items-center justify-center h-12 w-12 rounded-md bg-teal-600 text-white">
-                  🏄
-                </div>
-              </div>
-              <div>
-                <h3 class="heading-sm">Surf Community</h3>
-                <p class="text-gray-600">Immerse yourself in surfing culture and be part of a dynamic surfer community</p>
+                <h3 class="heading-sm">Rooftop Hidden Bar</h3>
+                <p class="text-gray-600">Watch sunsets and check surf conditions from our oceanfront rooftop bar</p>
               </div>
             </div>
           </div>
-
-          <button class="mt-8 px-8 py-3 bg-teal-600 text-white rounded-lg hover:bg-teal-700 font-semibold transition-all hover:scale-105">
-            Book a Room
-          </button>
         </div>
       </div>
     </div>

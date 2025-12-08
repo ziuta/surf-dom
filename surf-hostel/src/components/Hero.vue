@@ -15,10 +15,8 @@
     <!-- Hero Content - Relative positioning with better spacing -->
     <div class="relative z-10 w-full flex items-center justify-center px-4">
       <div class="text-center text-white max-w-4xl">
-        <!-- Pre-Headline with Blue Color and Shadow -->
-        <p class="text-base sm:text-lg font-bold text-teal-300 mb-2 sm:mb-3 tracking-widest uppercase animate-pulse drop-shadow-lg">
-          🏄 THE SEASON IS NOW!
-        </p>
+        <!-- Pre-Headline with Blue to Lime Animation -->
+        <p class="text-lg sm:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-lime-400 mb-2 sm:mb-3 tracking-widest uppercase drop-shadow-2xl animate-colorShift">🏄 THE SEASON IS NOW!</p>
         
         <!-- Main Headline with Shadow -->
         <h1 class="text-5xl sm:text-6xl md:text-7xl font-black mb-3 sm:mb-4 leading-tight animate-slideUp drop-shadow-xl" style="font-family: 'pardon4x4', sans-serif;">
@@ -43,7 +41,7 @@
         
         <!-- CTA Buttons with Blue Theme -->
         <div class="flex flex-col sm:flex-row gap-3 justify-center mb-6">
-          <button class="px-8 sm:px-10 py-3 sm:py-4 bg-gradient-to-r from-teal-500 to-teal-600 text-white font-black text-lg hover:from-teal-600 hover:to-teal-700 transition-all hover:scale-105 rounded-lg shadow-lg">
+          <button class="px-8 sm:px-10 py-3 sm:py-4 bg-gradient-to-r from-teal-500 to-teal-600 text-white font-bold text-lg hover:from-teal-600 hover:to-teal-700 transition-all hover:scale-105 rounded-lg shadow-lg">
             🎉 BOOK YOUR SPOT NOW
           </button>
           <button @click="scrollToPackages" class="px-8 sm:px-10 py-3 sm:py-4 bg-white/20 backdrop-blur-sm text-white font-bold border-2 border-white hover:bg-white/30 transition-all rounded-lg">
@@ -109,11 +107,27 @@ onUnmounted(() => {
   }
 }
 
+@keyframes colorShift {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    filter: hue-rotate(90deg);
+  }
+  100% {
+    filter: hue-rotate(0deg);
+  }
+}
+
 .animate-fadeIn {
   animation: fadeIn 1s ease-in-out;
 }
 
 .animate-slideUp {
   animation: slideUp 1s ease-in-out 0.3s both;
+}
+
+.animate-colorShift {
+  animation: colorShift 3s ease-in-out infinite;
 }
 </style>
