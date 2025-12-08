@@ -14,9 +14,9 @@
               <div>
                 <h4 class="font-semibold text-gray-900 mb-1">Address</h4>
                 <p class="text-gray-700 text-base">
-                  123 Tran Hung Dao Street<br/>
-                  Vung Tau, Ba Ria - Vung Tau<br/>
-                  Vietnam 79000
+                  Hoàng Hoa Thám 160/22/20 18 alley,<br/>
+                  Phường 2,<br/>
+                  Vũng Tàu, Bà Rịa - Vũng Tàu 740000
                 </p>
               </div>
             </div>
@@ -26,8 +26,8 @@
               <div>
                 <h4 class="font-semibold text-gray-900 mb-1">Phone</h4>
                 <p class="text-gray-700 text-base">
-                  <a href="tel:+84906123456" class="text-teal-600 hover:text-teal-700 font-medium">
-                    +84 (906) 123-456
+                  <a href="tel:+84 977724210" class="text-teal-600 hover:text-teal-700 font-medium">
+                    +84 977724210
                   </a>
                 </p>
               </div>
@@ -38,8 +38,8 @@
               <div>
                 <h4 class="font-semibold text-gray-900 mb-1">Email</h4>
                 <p class="text-gray-700 text-base">
-                  <a href="mailto:info@surphostelvungtau.com" class="text-teal-600 hover:text-teal-700 font-medium">
-                    info@surphostelvungtau.com
+                  <a href="mailto:vungtausurfschool@gmail.com" class="text-teal-600 hover:text-teal-700 font-medium">
+                    vungtausurfschool@gmail.com
                   </a>
                 </p>
               </div>
@@ -51,7 +51,7 @@
                 <h4 class="font-semibold text-gray-900 mb-1">Hours</h4>
                 <p class="text-gray-700 text-base">
                   Monday - Sunday<br/>
-                  06:00 - 23:00 (Reception 24/7)
+                  08:00 - 22:00
                 </p>
               </div>
             </div>

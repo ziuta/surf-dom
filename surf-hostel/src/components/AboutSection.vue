@@ -5,7 +5,7 @@
         <!-- Image -->
         <div class="overflow-hidden rounded-lg shadow-lg fade-in">
           <img
-            src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&q=80"
+            :src="surfDomImg"
             alt="Surf Hostel"
             class="w-full h-96 object-cover hover:scale-105 transition-transform duration-300"
           />
@@ -86,6 +86,7 @@
 </template>
 
 <script setup>
+import surfDomImg from '../../foto/surf-dom.png'
 </script>
 
 <style scoped>

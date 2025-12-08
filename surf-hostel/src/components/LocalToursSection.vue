@@ -1,85 +1,87 @@
 <template>
-  <section id="services" class="py-16 bg-gradient-to-br from-white via-gray-50 to-teal-50">
+  <section id="activities" class="py-16 bg-gradient-to-br from-white via-gray-50 to-teal-50">
     <div class="section-container">
       <!-- Header -->
       <div class="text-center mb-16">
-        <h2 class="heading-md mb-4">SURF DOM SERVICES</h2>
-        <p class="text-xl text-gray-700 max-w-2xl mx-auto">Enhance your stay with our curated services and local experiences</p>
+        <h2 class="heading-md mb-4">ACTIVITIES</h2>
+        <p class="text-xl text-gray-700 max-w-2xl mx-auto">All activities are available separately from the surf camp and can be booked individually.</p>
       </div>
 
       <!-- Tours Grid - 4 columns on desktop, 2 on tablet, 1 on mobile -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-        <!-- Tour 1 -->
-        <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-all border border-gray-200 p-6">
-          <div class="text-2xl mb-3">🏄</div>
-          <h2 class="font-bold text-gray-900 mb-2 text-[1.75rem]">Surfing Lesson with Champions</h2>
-          <p class="text-gray-600 text-sm mb-4">Learn from award-winning instructors</p>
-          <p class="text-lg font-bold text-gray-900">$45/person</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16 items-stretch">
+        <!-- Water Activities -->
+        <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-all border border-gray-200 p-6 h-full flex flex-col justify-between">
+          <div class="text-2xl mb-3">🏄‍♂️</div>
+          <h2 class="font-bold text-gray-900 mb-2 text-[1.5rem]">Surfing Lesson with Champions</h2>
+          <p class="text-gray-600 text-sm mb-4">Private and group surf lessons with professional coaches on the legendary waves of Vung Tau. Perfect for beginners and advanced surfers.</p>
+          <p class="text-lg font-bold text-gray-900">Starts from 750k VND</p>
         </div>
 
-        <!-- Tour 2 -->
-        <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-all border border-gray-200 p-6">
+        <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-all border border-gray-200 p-6 h-full flex flex-col justify-between">
           <div class="text-2xl mb-3">🌅</div>
-          <h2 class="font-bold text-gray-900 mb-2 text-[1.75rem]">Sunset SUP Tour near Cape</h2>
-          <p class="text-gray-600 text-sm mb-4">Golden hour magic on water</p>
-          <p class="text-lg font-bold text-gray-900">$50/person</p>
+          <h2 class="font-bold text-gray-900 mb-2 text-[1.5rem]">Sunset SUP Tour — Cape Saint Jacques</h2>
+          <p class="text-gray-600 text-sm mb-4">Magical sunset paddling along the most iconic cape of the city with ocean views, cliffs and golden light.</p>
+          <p class="text-lg font-bold text-gray-900">Starts from 750k VND</p>
         </div>
 
-        <!-- Tour 3 -->
-        <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-all border border-gray-200 p-6">
+        <!-- Urban Sports -->
+        <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-all border border-gray-200 p-6 h-full flex flex-col justify-between">
           <div class="text-2xl mb-3">🛹</div>
-          <h2 class="font-bold text-gray-900 mb-2 text-[1.75rem]">Seaside Skate Park</h2>
-          <p class="text-gray-600 text-sm mb-4">Shred on the edge of the ocean</p>
-          <p class="text-lg font-bold text-gray-900">$35/person</p>
+          <h2 class="font-bold text-gray-900 mb-2 text-[1.5rem]">Seaside Skatepark Session</h2>
+          <p class="text-gray-600 text-sm mb-4">Skateboarding by the ocean with local riders and coaches — pure street vibe with sea breeze. All gear included.</p>
+          <p class="text-lg font-bold text-gray-900">Starts from 100k VND</p>
         </div>
 
-        <!-- Tour 4 -->
-        <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-all border border-gray-200 p-6">
-          <div class="text-2xl mb-3">🍸</div>
-          <h2 class="font-bold text-gray-900 mb-2 text-[1.75rem]">Rooftop View Hidden Bar</h2>
-          <p class="text-gray-600 text-sm mb-4">Sunset drinks with the best view</p>
-          <a href="#contact" class="text-lg font-bold text-teal-600 hover:text-teal-700 transition-colors">Visit Surf Hostel</a>
+        <!-- Night & Vibe -->
+        <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-all border border-gray-200 p-6 h-full flex flex-col justify-between">
+          <div>
+            <div class="text-2xl mb-3">🍸</div>
+            <h2 class="font-bold text-gray-900 mb-2 text-[1.5rem]">Rooftop Hidden Bar Experience</h2>
+            <p class="text-gray-600 text-sm mb-4">Secret rooftop bar, city lights, ocean breeze, music and атмосфера свободы.</p>
+          </div>
+          <p class="text-lg font-bold text-gray-900">Starts from 1 beer</p>
         </div>
 
-        <!-- Tour 5 -->
-        <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-all border border-gray-200 p-6">
+        <!-- Adventure & City Tours -->
+        <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-all border border-gray-200 p-6 h-full flex flex-col justify-between">
           <div class="text-2xl mb-3">🚴</div>
-          <h2 class="font-bold text-gray-900 mb-2 text-[1.75rem]">Beach & Mountains Bike Tours</h2>
-          <p class="text-gray-600 text-sm mb-4">Pedal through paradise</p>
-          <p class="text-lg font-bold text-gray-900">$40/person</p>
+          <h2 class="font-bold text-gray-900 mb-2 text-[1.5rem]">Beach & Mountain Bike Tours</h2>
+          <p class="text-gray-600 text-sm mb-4">From ocean roads to jungle hills — full freedom on two wheels.</p>
+          <p class="text-lg font-bold text-gray-900">Starts from 1 bike</p>
         </div>
 
-        <!-- Tour 6 -->
-        <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-all border border-gray-200 p-6">
+        <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-all border border-gray-200 p-6 h-full flex flex-col justify-between">
           <div class="text-2xl mb-3">🛺</div>
-          <h2 class="font-bold text-gray-900 mb-2 text-[1.75rem]">Tuk Tuk City Tour</h2>
-          <p class="text-gray-600 text-sm mb-4">Authentic local adventure</p>
-          <p class="text-lg font-bold text-gray-900">$25/person</p>
+          <h2 class="font-bold text-gray-900 mb-2 text-[1.5rem]">Tuk-Tuk City Tour</h2>
+          <p class="text-gray-600 text-sm mb-4">Crazy ride through the city, local streets, viewpoints and hidden spots.</p>
+          <p class="text-lg font-bold text-gray-900">750k VND</p>
         </div>
 
-        <!-- Tour 7 -->
-        <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-all border border-gray-200 p-6">
-          <div class="text-2xl mb-3">🏠</div>
-          <h2 class="font-bold text-gray-900 mb-2 text-[1.75rem]">Oldest Hostel Handmade</h2>
-          <p class="text-gray-600 text-sm mb-4">Built by surfers, for surfers</p>
-          <a href="#contact" class="text-lg font-bold text-teal-600 hover:text-teal-700 transition-colors">Visit Surf Hostel</a>
+        <!-- Lifestyle Experiences -->
+        <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-all border border-gray-200 p-6 h-full flex flex-col justify-between">
+          <div>
+            <div class="text-2xl mb-3">🏄</div>
+            <h2 class="font-bold text-gray-900 mb-2 text-[1.5rem]">Mad Surfing Hostel Experience</h2>
+            <p class="text-gray-600 text-sm mb-4">Not just a place to sleep, but a real surf lifestyle community: skate, surf, people, sunsets, stories.</p>
+          </div>
+          <p class="text-lg font-bold text-gray-900">Starts from Check-in</p>
         </div>
 
-        <!-- Tour 8 -->
-        <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-all border border-gray-200 p-6">
-          <div class="text-2xl mb-3">☕</div>
-          <h2 class="font-bold text-gray-900 mb-2 text-[1.75rem]">Cozy Coffee & Thrift Spot</h2>
-          <p class="text-gray-600 text-sm mb-4">Vintage vibes & great brew. All guests welcome!</p>
-          <a href="#contact" class="text-lg font-bold text-teal-600 hover:text-teal-700 transition-colors">Visit Surf Hostel</a>
+        <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-all border border-gray-200 p-6 h-full flex flex-col justify-between">
+          <div>
+            <div class="text-2xl mb-3">☕</div>
+            <h2 class="font-bold text-gray-900 mb-2 text-[1.5rem]">Coffee, Thrift & Surf-Skate Store Experience</h2>
+            <p class="text-gray-600 text-sm mb-4">Coffee, vintage clothes, surfboards, skateboards and local vibes in one place.</p>
+          </div>
+          <p class="text-lg font-bold text-gray-900">Starts from a cup of coffee</p>
         </div>
       </div>
 
       <!-- CTA -->
       <div class="text-center">
-        <p class="text-lg text-gray-700 mb-6">All experiences included with your SURF CAMP package</p>
-        <button class="px-8 py-4 bg-teal-600 text-white rounded-lg hover:bg-teal-700 font-bold transition-all hover:scale-105 shadow-lg">
-          🎉 Book Your Experience
-        </button>
+        <a href="https://wa.me/84977724210" target="_blank" rel="noopener noreferrer" class="px-8 py-4 bg-teal-600 text-white rounded-lg hover:bg-teal-700 font-bold transition-all hover:scale-105 shadow-lg inline-block">
+          🎉 Book Your Experience (WhatsApp)
+        </a>
       </div>
     </div>
   </section>

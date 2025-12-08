@@ -82,18 +82,7 @@
             </div>
           </div>
 
-          <!-- Recommendation -->
-          <div class="bg-yellow-400 bg-opacity-20 rounded-lg p-3 md:p-6 border-2 border-yellow-300">
-            <p class="text-white text-center text-sm md:text-lg">
-              <span class="text-yellow-300 font-bold">✅ RECOMMENDATION:</span>
-            </p>
-            <p class="text-white text-center mt-1 md:mt-2 text-sm md:text-lg font-semibold">
-              {{ weatherData.recommendation }}
-            </p>
-            <p class="text-teal-100 text-center mt-1 md:mt-3 text-sm md:text-base">
-              Perfect conditions for learning or advanced surfing!
-            </p>
-          </div>
+          <!-- Recommendation block removed (not permanent). If you want dynamic recommendations, we can fetch real data and render conditionally. -->
 
           <!-- Footer with Social Icons -->
           <div class="mt-4 md:mt-8 pt-3 md:pt-6 border-t-2 border-yellow-300 flex justify-center gap-4 md:gap-6">

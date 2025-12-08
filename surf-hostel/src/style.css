@@ -88,3 +88,27 @@ button {
     line-height: 1.25rem;
   }
 }
+
+/* Dev helper: disable heavy blur/backdrop-filter and filters to improve
+   DevTools responsiveness. This is applied only in development when
+   `import.meta.env.DEV` is true (see `src/main.js`). Remove this in
+   production if you want the original visual effects. */
+.dev-no-blur *, .dev-no-blur *::before, .dev-no-blur *::after {
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+  filter: none !important;
+  /* override Tailwind CSS variables if present */
+  --tw-backdrop-blur: none !important;
+  --tw-blur: none !important;
+  --tw-drop-shadow: none !important;
+}
+
+/* also neutralize specific utility classes (in case they're injected)
+   this helps when styles are applied directly via class names */
+.dev-no-blur .backdrop-blur, .dev-no-blur .backdrop-blur-sm, .dev-no-blur [class*="backdrop-blur-"] {
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+.dev-no-blur .blur, .dev-no-blur .blur-sm, .dev-no-blur [class*="blur-"] {
+  filter: none !important;
+}

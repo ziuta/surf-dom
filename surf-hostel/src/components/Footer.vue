@@ -19,7 +19,7 @@
           <ul class="space-y-2 text-base text-gray-400">
             <li><a href="#about" class="hover:text-teal-400 transition-colors">About</a></li>
             <li><a href="#surfing" class="hover:text-teal-400 transition-colors">Surf School</a></li>
-            <li><a href="#tours" class="hover:text-teal-400 transition-colors">Tours</a></li>
+            <li><a href="#activities" class="hover:text-teal-400 transition-colors">Activities</a></li>
             <li><a href="#gallery" class="hover:text-teal-400 transition-colors">Gallery</a></li>
             <li><a href="#contact" class="hover:text-teal-400 transition-colors">Contact</a></li>
           </ul>
@@ -29,7 +29,7 @@
         <div>
           <h4 class="font-bold mb-4 text-yellow-400">Services</h4>
           <ul class="space-y-2 text-base text-gray-400">
-            <li><a href="#" class="hover:text-teal-400 transition-colors">Room Booking</a></li>
+            <li><a href="https://wa.me/84977724210" target="_blank" rel="noopener noreferrer" class="hover:text-teal-400 transition-colors">Room Booking (WhatsApp)</a></li>
             <li><a href="#" class="hover:text-teal-400 transition-colors">Surf Lessons</a></li>
             <li><a href="#" class="hover:text-teal-400 transition-colors">Tours</a></li>
             <li><a href="#" class="hover:text-teal-400 transition-colors">Private Lessons</a></li>
