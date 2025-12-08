@@ -63,24 +63,20 @@
           <h3 class="heading-sm mb-6 text-teal-700">Follow us on Social Media</h3>
           
           <div class="space-y-3">
-            <a href="https://instagram.com" target="_blank" class="flex items-center gap-3 p-4 bg-gradient-to-r from-purple-50 to-pink-50 hover:from-purple-100 hover:to-pink-100 rounded-lg transition-all hover:shadow-md border border-purple-200 hover:border-purple-400">
+            <a href="https://www.instagram.com/vungtausurfschool/?next=%2F" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 p-4 bg-gradient-to-r from-purple-50 to-pink-50 hover:from-purple-100 hover:to-pink-100 rounded-lg transition-all hover:shadow-md border border-purple-200 hover:border-purple-400">
               <span class="text-3xl">📱</span>
               <span class="font-bold text-gray-800">Instagram</span>
             </a>
-            <a href="https://facebook.com" target="_blank" class="flex items-center gap-3 p-4 bg-gradient-to-r from-blue-50 to-blue-100 hover:from-blue-100 hover:to-blue-200 rounded-lg transition-all hover:shadow-md border border-blue-300 hover:border-blue-500">
+            <a href="https://www.facebook.com/SURFDOMvungtau/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 p-4 bg-gradient-to-r from-blue-50 to-blue-100 hover:from-blue-100 hover:to-blue-200 rounded-lg transition-all hover:shadow-md border border-blue-300 hover:border-blue-500">
               <span class="text-3xl">👥</span>
               <span class="font-bold text-gray-800">Facebook</span>
-            </a>
-            <a href="https://tiktok.com" target="_blank" class="flex items-center gap-3 p-4 bg-gradient-to-r from-gray-900 to-black hover:from-gray-800 hover:to-gray-900 rounded-lg transition-all hover:shadow-md border border-gray-700 hover:border-gray-500">
-              <span class="text-3xl">🎬</span>
-              <span class="font-bold text-white">TikTok</span>
             </a>
           </div>
           
           <div class="mt-6 pt-6 border-t border-teal-100">
             <p class="text-center text-gray-700 text-base">
               <span class="block mb-2">📸 Tag us in your surfing adventures</span>
-              <span class="font-bold text-teal-600">#SurfHostelVungTau</span>
+              <span class="font-bold text-teal-600">@vungtausurfschool</span>
             </p>
           </div>
         </div>

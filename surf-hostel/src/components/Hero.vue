@@ -108,6 +108,6 @@ onUnmounted(() => {
 }
 
 .animate-colorShift {
-  animation: colorShift 3s ease-in-out infinite;
+  animation: colorShift 1.2s ease-in-out infinite;
 }
 </style>

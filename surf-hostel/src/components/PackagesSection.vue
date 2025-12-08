@@ -62,17 +62,17 @@
       <!-- Package Section (appears after selection) -->
       <div v-if="selectedType" class="animate-fadeIn">
         <!-- Back Button & Selection Header -->
-        <div class="mb-12 flex items-center justify-between">
+        <div class="mb-12 flex flex-col md:flex-row items-center md:justify-between gap-4">
           <button
             @click="selectedType = null"
-            class="inline-block px-6 py-2 bg-teal-600 text-white font-bold rounded-lg hover:bg-teal-700 transition-all"
+            class="inline-block w-full md:w-auto px-6 py-2 bg-teal-600 text-white font-bold rounded-lg hover:bg-teal-700 transition-all"
           >
             ← Back to Selection
           </button>
-          <h3 class="text-2xl font-bold text-gray-900">
+          <h3 class="text-2xl font-bold text-gray-900 text-center md:text-left">
             {{ selectedType === 'hostel' ? '🏠 Hostel Package' : '🏨 Hotel Package' }}
           </h3>
-          <div class="w-40"></div>
+          <div class="w-40 hidden md:block"></div>
         </div>
 
         <!-- Package Grid -->
@@ -92,8 +92,8 @@
               <div class="mb-6 pb-6 border-b border-gray-200">
                 <p class="text-base text-gray-600 mb-2">Price per person / day</p>
                 <div class="flex items-baseline gap-3">
-                  <p class="text-xl font-bold text-gray-400 line-through">1.900.000 ₫</p>
-                  <p class="text-4xl font-black text-orange-600">1.330.000 ₫</p>
+                  <p class="text-lg md:text-xl font-bold text-gray-400 line-through">1.900.000 ₫</p>
+                  <p class="text-2xl md:text-4xl font-black text-orange-600">1.330.000 ₫</p>
                 </div>
                 <p class="text-sm text-orange-600 font-bold mt-2 bg-orange-100 inline-block px-3 py-1 rounded">💰 FREE Accommodation + Save 800K!</p>
               </div>
@@ -138,7 +138,7 @@
             <div class="p-6 flex flex-col h-full">
               <div class="mb-6 pb-6 border-b border-gray-200">
                 <p class="text-sm text-gray-600 mb-1">Price per person / day starts at</p>
-                <p class="text-4xl font-black text-blue-600">1.780.000 ₫</p>
+                <p class="text-2xl md:text-4xl font-black text-blue-600">1.780.000 ₫</p>
                 <p class="text-sm text-blue-600 font-bold mt-2 bg-blue-100 inline-block px-3 py-1 rounded">comfort & privacy</p>
               </div>
               <div class="mb-6">
