@@ -49,6 +49,11 @@
       </div>
     </div>
   </footer>
+  <div class="bg-black">
+    <div class="section-container text-center py-3">
+      <p class="text-white text-sm">Made with 🔥 by <a href="https://ogien.net/" target="_blank" rel="noopener noreferrer" class="underline">ogien.net</a></p>
+    </div>
+  </div>
 </template>
 
 <script setup>
