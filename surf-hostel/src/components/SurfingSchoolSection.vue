@@ -25,6 +25,7 @@
                 <li>✅ Board & wetsuit</li>
               </ul>
               <p class="text-yellow-600 font-bold mt-3">980,000 ₫ / person • 2 hr</p>
+              <p class="text-sm mt-1"><a href="https://vungtausurfschool.setmore.com/polina" target="_blank" rel="noopener noreferrer" class="text-teal-600 underline">Book a lesson now</a></p>
             </div>
 
             <!-- Adult Paired Session -->
@@ -38,6 +39,7 @@
                 <li>✅ Transfer included</li>
               </ul>
               <p class="text-yellow-600 font-bold mt-3">1,500,000 ₫ / person • 2 hr</p>
+              <p class="text-sm mt-1"><a href="https://vungtausurfschool.setmore.com/polina" target="_blank" rel="noopener noreferrer" class="text-teal-600 underline">Book a lesson now</a></p>
             </div>
 
             <!-- Private Lessons -->
@@ -51,6 +53,7 @@
                 <li>✅ Full equipment</li>
               </ul>
               <p class="text-yellow-600 font-bold mt-3">2,800,000 ₫ / person • 2 hr</p>
+              <p class="text-sm mt-1"><a href="https://vungtausurfschool.setmore.com/polina" target="_blank" rel="noopener noreferrer" class="text-teal-600 underline">Book a lesson now</a></p>
             </div>
 
             <!-- Children Sessions -->
@@ -64,6 +67,7 @@
                 <li>✅ Junior equipment</li>
               </ul>
               <p class="text-yellow-600 font-bold mt-3">4-Pack: 375,000 ₫ / session • 2 hrs each</p>
+              <p class="text-sm mt-1"><a href="https://vungtausurfschool.setmore.com/polina" target="_blank" rel="noopener noreferrer" class="text-teal-600 underline">Book a lesson now</a></p>
             </div>
           </div>
         </div>
@@ -145,8 +149,8 @@
 
       <!-- Full Width Booking Button -->
       <div class="mb-12">
-        <a href="https://wa.me/84977724210" target="_blank" rel="noopener noreferrer" class="w-full inline-block px-8 py-4 bg-gradient-to-r from-lime-300 to-lime-500 text-gray-900 rounded-lg hover:from-lime-200 hover:to-lime-500 font-bold transition-all hover:scale-105 shadow-lg text-lg text-center">
-          📞 Book a Lesson (WhatsApp)
+        <a href="https://vungtausurfschool.setmore.com/polina" target="_blank" rel="noopener noreferrer" class="w-full inline-block px-8 py-4 bg-gradient-to-r from-lime-300 to-lime-500 text-gray-900 rounded-lg hover:from-lime-200 hover:to-lime-500 font-bold transition-all hover:scale-105 shadow-lg text-lg text-center">
+          🏄 Book a Lesson
         </a>
       </div>
 
