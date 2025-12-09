@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
+import i18n from './i18n'
 
 // In development, add class to disable blur effects which can slow down
 // Chrome DevTools when inspecting elements. This is safe for dev only.
@@ -38,4 +39,10 @@ if (import.meta.env.DEV) {
 	}
 }
 
-createApp(App).mount('#app')
+createApp(App)
+	.use(i18n)
+	.mount('#app')
+
+// Export i18n to window for global access
+window.__i18n = i18n
+
