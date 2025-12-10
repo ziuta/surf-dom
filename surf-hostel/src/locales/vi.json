@@ -1,0 +1,152 @@
+{
+    "header": {
+        "home": "Trang chủ",
+        "about": "Giới thiệu",
+        "school": "Trường học",
+        "tours": "Du lịch",
+        "gallery": "Thư viện",
+        "packages": "Gói dịch vụ",
+        "contact": "Liên hệ"
+    },
+    "hero": {
+        "title": "Cưỡi Những Con Sóng",
+        "subtitle": "Học lướt ván với những nhà vô địch tại Vũng Tàu",
+        "bookNow": "Đặt ngay",
+        "learnMore": "Tìm hiểu thêm"
+    },
+    "weather": {
+        "title": "Điều kiện Lướt ván & Thời tiết",
+        "temperature": "Nhiệt độ",
+        "windSpeed": "Tốc độ gió",
+        "waveHeight": "Chiều cao sóng",
+        "difficulty": "Độ khó",
+        "crowding": "Đông đúc",
+        "tide": "Thủy triều",
+        "updating": "Đang tải dữ liệu thời tiết từ API...",
+        "lastUpdate": "Cập nhật lần cuối"
+    },
+    "about": {
+        "title": "Về Surf Hostel Vũng Tàu",
+        "description": "Chào mừng đến thiên đường lướt ván của chúng tôi tại Vũng Tàu, Việt Nam. Chúng tôi cung cấp sự kết hợp hoàn hảo giữa lướt ván đẳng cấp thế giới, chỗ ở và những trải nghiệm không thể quên.",
+        "mission": "Sứ mệnh của chúng tôi là cung cấp cho những người lướt ván ở tất cả các cấp độ những điều kiện tốt nhất để học tập và cải thiện kỹ năng của họ.",
+        "features": "Hướng dẫn viên chuyên nghiệp • Thân thiện với người mới • Bãi biển đẹp • Văn hóa địa phương"
+    },
+    "surfingSchool": {
+        "title": "Trường Lướt ván",
+        "subtitle": "Học từ những người giỏi nhất",
+        "courses": {
+            "beginner": {
+                "name": "Khóa học Người mới bắt đầu",
+                "description": "Hoàn hảo cho những ai mới bắt đầu hành trình lướt ván",
+                "price": "350.000 ₫",
+                "duration": "5 ngày",
+                "features": "Kỹ thuật cơ bản • Đào tạo an toàn • Cho thuê thiết bị"
+            },
+            "intermediate": {
+                "name": "Khóa học Trung cấp",
+                "description": "Dành cho những ai có kinh nghiệm lướt ván",
+                "price": "450.000 ₫",
+                "duration": "5 ngày",
+                "features": "Kỹ thuật nâng cao • Lựa chọn sóng • Đào tạo thể dục"
+            },
+            "private": {
+                "name": "Bài học Cá nhân",
+                "description": "Hướng dẫn cá nhân hóa một-một",
+                "price": "500.000 ₫",
+                "duration": "Mỗi buổi",
+                "features": "Chương trình tùy chỉnh • Lịch trình linh hoạt • Phản hồi cá nhân"
+            }
+        }
+    },
+    "localTours": {
+        "title": "Du lịch địa phương & Trải nghiệm",
+        "subtitle": "Khám phá vẻ đẹp của Vũng Tàu",
+        "tours": {
+            "beach": "Tour du lịch bãi biển có hướng dẫn",
+            "cultural": "Trải nghiệm văn hóa",
+            "night": "Du thuyền lúc hoàng hôn",
+            "island": "Chuyến phiêu lưu đảo",
+            "local": "Tour chợ địa phương"
+        }
+    },
+    "gallery": {
+        "title": "Thư viện hình ảnh",
+        "subtitle": "Những khoảnh khắc từ những người lướt ván của chúng tôi"
+    },
+    "testimonials": {
+        "title": "Khách của chúng tôi nói gì",
+        "subtitle": "Những trải nghiệm thực sự từ những người lướt ván thực sự"
+    },
+    "packages": {
+        "title": "Chọn Gói dịch vụ của bạn",
+        "subtitle": "Chọn trải nghiệm lướt ván hoàn hảo của bạn",
+        "hostel": {
+            "name": "Gói Hostel",
+            "icon": "🏠",
+            "description": "Không khí xã hội & những trải nghiệm chung",
+            "price": "1.330.000 ₫",
+            "perDay": "Giá mỗi người / mỗi ngày",
+            "features": [
+                "Phòng chung",
+                "Giá cạnh tranh",
+                "Tuyệt vời để kết bạn"
+            ]
+        },
+        "hotel": {
+            "name": "Gói Khách sạn",
+            "icon": "🏨",
+            "description": "Thoải mái & riêng tư với sang trọng",
+            "price": "1.780.000 ₫",
+            "perDay": "Giá mỗi người / mỗi ngày bắt đầu từ",
+            "features": [
+                "Phòng riêng",
+                "Tầm nhìn ra biển",
+                "Tiện nghi cao cấp"
+            ]
+        },
+        "choosePackage": "Bạn muốn ở đâu?",
+        "choosePackageDesc": "Chọn loại chỗ ở của bạn và khám phá gói cắm trại lướt ván hoàn hảo cho bạn",
+        "backToSelection": "← Quay lại lựa chọn",
+        "bookingForm": {
+            "title": "Gửi yêu cầu đặt phòng",
+            "name": "Tên của bạn",
+            "email": "Địa chỉ email",
+            "country": "Quốc gia",
+            "phone": "Điện thoại",
+            "checkIn": "📅 Ngày nhận phòng",
+            "checkOut": "📅 Ngày trả phòng",
+            "message": "💬 Tin nhắn",
+            "submit": "Gửi yêu cầu ➤",
+            "sending": "⏳ Đang gửi...",
+            "success": "✅ Yêu cầu của bạn đã được gửi thành công! Chúng tôi sẽ liên hệ với bạn sớm.",
+            "error": "❌ Lỗi: {error}",
+            "validationError": "Vui lòng điền đầy đủ tất cả các trường bắt buộc và đảm bảo ngày trả phòng sau ngày nhận phòng."
+        }
+    },
+    "contact": {
+        "title": "Liên hệ với chúng tôi",
+        "subtitle": "Chúng tôi ở đây để giúp bạn",
+        "form": {
+            "name": "Tên của bạn",
+            "email": "Email của bạn",
+            "message": "Tin nhắn của bạn",
+            "submit": "Gửi tin nhắn"
+        },
+        "info": {
+            "address": "Vũng Tàu, Việt Nam",
+            "email": "info@surfhostel.com",
+            "phone": "+84 123 456 789",
+            "hours": "Thứ Hai - Chủ Nhật: 8:00 - 18:00"
+        }
+    },
+    "footer": {
+        "copyright": "© 2024 Surf Hostel Vũng Tàu. Tất cả quyền được bảo lưu.",
+        "links": {
+            "about": "Giới thiệu",
+            "contact": "Liên hệ",
+            "privacy": "Chính sách bảo mật",
+            "terms": "Điều khoản dịch vụ"
+        },
+        "followUs": "Theo dõi chúng tôi trên mạng xã hội"
+    }
+}

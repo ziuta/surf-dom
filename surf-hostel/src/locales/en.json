@@ -1,0 +1,152 @@
+{
+    "header": {
+        "home": "Home",
+        "about": "About",
+        "school": "School",
+        "tours": "Tours",
+        "gallery": "Gallery",
+        "packages": "Packages",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "Ride the Waves",
+        "subtitle": "Learn to surf with champions in Vung Tau",
+        "bookNow": "Book Now",
+        "learnMore": "Learn More"
+    },
+    "weather": {
+        "title": "Surf & Weather Conditions",
+        "temperature": "Temperature",
+        "windSpeed": "Wind Speed",
+        "waveHeight": "Wave Height",
+        "difficulty": "Difficulty",
+        "crowding": "Crowding",
+        "tide": "Tide",
+        "updating": "Fetching weather data from API...",
+        "lastUpdate": "Last updated"
+    },
+    "about": {
+        "title": "About Surf Hostel Vung Tau",
+        "description": "Welcome to our surf paradise in Vung Tau, Vietnam. We offer the perfect combination of world-class surfing, accommodation, and unforgettable experiences.",
+        "mission": "Our mission is to provide surfers of all levels with the best conditions to learn and improve their skills.",
+        "features": "Professional instructors • Beginner-friendly • Beautiful beaches • Local culture"
+    },
+    "surfingSchool": {
+        "title": "Surfing School",
+        "subtitle": "Learn from the best",
+        "courses": {
+            "beginner": {
+                "name": "Beginner Course",
+                "description": "Perfect for those just starting their surf journey",
+                "price": "350,000 ₫",
+                "duration": "5 days",
+                "features": "Basic techniques • Safety training • Equipment rental"
+            },
+            "intermediate": {
+                "name": "Intermediate Course",
+                "description": "For those with some surf experience",
+                "price": "450,000 ₫",
+                "duration": "5 days",
+                "features": "Advanced techniques • Wave selection • Fitness training"
+            },
+            "private": {
+                "name": "Private Lessons",
+                "description": "One-on-one personalized instruction",
+                "price": "500,000 ₫",
+                "duration": "Per session",
+                "features": "Custom program • Flexible schedule • Personal feedback"
+            }
+        }
+    },
+    "localTours": {
+        "title": "Local Tours & Experiences",
+        "subtitle": "Explore the beauty of Vung Tau",
+        "tours": {
+            "beach": "Guided Beach Tour",
+            "cultural": "Cultural Experience",
+            "night": "Sunset Cruise",
+            "island": "Island Hopping Adventure",
+            "local": "Local Market Tour"
+        }
+    },
+    "gallery": {
+        "title": "Gallery",
+        "subtitle": "Moments from our surfers"
+    },
+    "testimonials": {
+        "title": "What Our Guests Say",
+        "subtitle": "Real experiences from real surfers"
+    },
+    "packages": {
+        "title": "Choose Your Package",
+        "subtitle": "Select your perfect surf experience",
+        "hostel": {
+            "name": "Hostel Package",
+            "icon": "🏠",
+            "description": "Social vibes & shared experiences",
+            "price": "1,330,000 ₫",
+            "perDay": "Price per person / day",
+            "features": [
+                "Shared rooms",
+                "Budget-friendly",
+                "Great for making friends"
+            ]
+        },
+        "hotel": {
+            "name": "Hotel Package",
+            "icon": "🏨",
+            "description": "Comfort & privacy with luxury",
+            "price": "1,780,000 ₫",
+            "perDay": "Price per person / day starts at",
+            "features": [
+                "Private rooms",
+                "Ocean views",
+                "Premium amenities"
+            ]
+        },
+        "choosePackage": "Where Do You Want to Stay?",
+        "choosePackageDesc": "Choose your accommodation type and discover the perfect surf camp package for you",
+        "backToSelection": "← Back to Selection",
+        "bookingForm": {
+            "title": "Send Booking Inquiry",
+            "name": "Your Name",
+            "email": "Email Address",
+            "country": "Country",
+            "phone": "Phone",
+            "checkIn": "📅 Check-in Date",
+            "checkOut": "📅 Check-out Date",
+            "message": "💬 Message",
+            "submit": "Send Inquiry ➤",
+            "sending": "⏳ Sending...",
+            "success": "✅ Your inquiry was sent successfully! We'll contact you soon.",
+            "error": "❌ Error: {error}",
+            "validationError": "Please fill in all required fields and ensure check-out date is after check-in date."
+        }
+    },
+    "contact": {
+        "title": "Get In Touch",
+        "subtitle": "We're here to help",
+        "form": {
+            "name": "Your Name",
+            "email": "Your Email",
+            "message": "Your Message",
+            "submit": "Send Message"
+        },
+        "info": {
+            "address": "Vung Tau, Vietnam",
+            "email": "info@surfhostel.com",
+            "phone": "+84 123 456 789",
+            "hours": "Mon - Sun: 8:00 AM - 6:00 PM"
+        }
+    },
+    "footer": {
+        "copyright": "© 2024 Surf Hostel Vung Tau. All rights reserved.",
+        "links": {
+            "about": "About",
+            "contact": "Contact",
+            "privacy": "Privacy Policy",
+            "terms": "Terms of Service"
+        },
+        "followUs": "Follow us on social media"
+    }
+}
