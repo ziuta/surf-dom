@@ -52,7 +52,7 @@
 
             <div class="text-center bg-teal-700 bg-opacity-50 rounded-lg p-2 md:p-4">
               <p class="text-yellow-300 text-lg md:text-2xl mb-0 md:mb-1">🌀</p>
-              <p class="text-white text-sm md:text-base font-semibold">Tide</p>
+              <p class="text-white text-sm md:text-base font-semibold">Tide Trend</p>
               <p class="text-yellow-300 text-base md:text-lg font-bold">{{ weatherData.tide }}</p>
             </div>
           </div>
@@ -73,14 +73,14 @@
                 <span>Current Vibe:</span>
                 <span class="text-yellow-300 font-bold uppercase tracking-wider text-right">{{ weatherData.difficulty }}</span>
               </div>
-              
+
               <div class="flex items-center justify-between text-white text-xs md:text-base">
                 <span>Best Time:</span>
                 <span :class="{'animate-pulse text-yellow-300': weatherData.isBestTimeNow, 'text-teal-100': !weatherData.isBestTimeNow}" class="font-bold text-xs md:text-base text-right">
                   {{ weatherData.bestTime }}
                 </span>
               </div>
-
+              
               <div class="flex items-center justify-between text-white text-xs md:text-base pt-2 border-t border-teal-600/50 mt-2">
                 <span>Suggestion:</span>
                 <span class="text-teal-100 font-medium text-xs md:text-sm text-right pl-4">{{ weatherData.recommendation }}</span>
@@ -124,7 +124,7 @@ const weatherData = reactive({
   waveHeight: '0.0',
   swellDirection: '-',
   swellPeriod: 0,
-  tide: 'Incoming', // Default
+  tide: 'Incoming', // Wracamy do symulacji
   bestTime: '-', 
   isBestTimeNow: false,
   difficulty: '-',
@@ -134,12 +134,17 @@ const weatherData = reactive({
 const fetchWeatherData = async () => {
   isLoading.value = true
   try {
+    // Współrzędne "w wodzie" dla lepszego wiatru
     const lat = '10.353749'
     const lon = '107.105195'
 
+    // 1. Weather API (Bez zmian)
     const weatherPromise = fetch(
       `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,wind_speed_10m,wind_direction_10m&timezone=Asia/Ho_Chi_Minh`
     )
+    
+    // 2. Marine API (NAPRAWIONE: Usunięto 'hourly=sea_surface_height')
+    // Teraz pobieramy tylko pewne dane: wysokość, kierunek i okres fal
     const marinePromise = fetch(
       `https://marine-api.open-meteo.com/v1/marine?latitude=${lat}&longitude=${lon}&current=wave_height,wave_direction,wave_period&timezone=Asia/Ho_Chi_Minh`
     )
@@ -163,6 +168,11 @@ const fetchWeatherData = async () => {
     weatherData.swellPeriod = mCurrent.wave_period ? mCurrent.wave_period.toFixed(0) : '-'
     weatherData.swellDirection = getDirectionLabel(mCurrent.wave_direction)
 
+    // --- Tide Simulation (Bezpieczna metoda) ---
+    // Symulacja cyklu ~6 godzinnego (wystarczająca dla orientacji Rising/Falling)
+    const tidePhase = (Date.now() / (6 * 60 * 60 * 1000)) % 2
+    weatherData.tide = tidePhase < 1 ? 'Incoming 🌊' : 'Outgoing 📉'
+
     // --- Conditions ---
     const condition = calculateSurfCondition(
       mCurrent.wave_height, 
@@ -171,18 +181,16 @@ const fetchWeatherData = async () => {
     weatherData.difficulty = condition.status
     weatherData.recommendation = condition.desc
 
-    // --- Best Time Logic ---
+    // --- Best Time ---
     calculateBestTime()
-
-    // --- Tide Simulation (Based on original logic) ---
-    // 6-hour cycle approximate
-    const tidePhase = (Date.now() / (6 * 60 * 60 * 1000)) % 2
-    weatherData.tide = tidePhase < 1 ? 'Incoming 🌊' : 'Outgoing 📉'
 
     updateCurrentDate()
     
   } catch (error) {
     console.error('Fetch error:', error)
+    // Awaryjne wartości w razie błędu
+    weatherData.difficulty = 'Offline'
+    weatherData.recommendation = 'Check local report'
   } finally {
     isLoading.value = false
   }
@@ -195,28 +203,23 @@ const getDirectionLabel = (degrees) => {
   return directions[index]
 }
 
-// Logic: Determine Best Time based on HOURS
 const calculateBestTime = () => {
   const hour = new Date().getHours()
-  
-  // Morning Session: 6:00 to 10:00 (Hours 6, 7, 8, 9)
   const isMorning = hour >= 6 && hour < 10
-  
-  // Afternoon Session: 15:00 onwards
   const isAfternoon = hour >= 15 && hour < 19 
   
   if (isMorning || isAfternoon) {
     weatherData.bestTime = 'RIGHT NOW! 🚀'
-    weatherData.isBestTimeNow = true // Triggers animation
+    weatherData.isBestTimeNow = true
   } else {
-    weatherData.bestTime = '06:00 - 10:00, after 15:00'
+    weatherData.bestTime = '06:00 - 10:00 & > 15:00'
     weatherData.isBestTimeNow = false
   }
 }
 
 const calculateSurfCondition = (waveHeight, windSpeed) => {
   if (waveHeight < 0.2) {
-    return { status: 'Chill', desc: 'Perfect water for Paddleboarding or swimming!' }
+    return { status: 'Chill / SUP Day 🧘', desc: 'Perfect water for Paddleboarding or swimming!' }
   }
   if (windSpeed > 30) {
     return { status: 'Wild / Windy 🌬️', desc: 'Strong winds. Good for paddle fitness training.' }
