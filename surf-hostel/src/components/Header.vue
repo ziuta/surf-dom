@@ -20,7 +20,7 @@
 
       <!-- CTA Buttons & Language Switcher -->
       <div class="flex items-center gap-4">
-        <LanguageSwitcher />
+        <!-- <LanguageSwitcher /> -->
         <a href="https://wa.me/84977724210" target="_blank" rel="noopener noreferrer" class="hidden md:inline-block px-6 py-2 bg-lime-300 text-gray-900 rounded-lg hover:bg-lime-500 font-medium transition-all">
           Ask Anything (WhatsApp)
         </a>
